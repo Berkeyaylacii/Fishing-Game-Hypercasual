@@ -6,8 +6,8 @@ public class Detector : MonoBehaviour
 {
     public GameObject fish;
 
-    public GameObject[] fishes;
-    public GameObject closest;
+    GameObject[] fishes;
+    GameObject closest;
     // Start is called before the first frame update
     void Start()
     {

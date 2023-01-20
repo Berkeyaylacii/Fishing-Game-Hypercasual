@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Fish
   - pullable
+  - Score
+  - LinePoint
+  - Cash
+  - CashUI
   layers:
   - Default
   - TransparentFX
