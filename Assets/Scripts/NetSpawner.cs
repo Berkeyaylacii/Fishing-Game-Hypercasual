@@ -4,45 +4,88 @@ using UnityEngine;
 
 public class NetSpawner : MonoBehaviour
 {
-    public GameObject Net;
+    public FishSpawner fishSpawner;
 
-    public float distance = 1f;
+    GameObject[] fishes;
+    GameObject closest;
 
-    public float Timer = 0.05f;
+    private LineRenderer line;
+    public Transform bringPosition;
+    public GameObject fish;
+    bool pulling;
+
     // Start is called before the first frame update
     void Start()
     {
-       /*if (Input.GetButton("C"))
-        {
-           StartCoroutine(waiter());
-        }*/
- 
+        line = gameObject.GetComponent < LineRenderer>();
+        pulling = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        Timer -= Time.deltaTime;
-        if (Timer <= 0f)
+        /*if (pulling)
         {
-            if (Input.GetKey(KeyCode.C))
+            line.positionCount = 2;
+            line.SetPosition(0, gameObject.transform.position);
+            line.SetPosition(1, fish.transform.position);
+
+            float distance = Vector3.Distance(fish.transform.position, bringPosition.position);
+            fish.transform.position = Vector3.Lerp(fish.transform.position, bringPosition.position, Time.deltaTime * 5);
+            if (distance < 0.20f)
             {
-                SpawnNet();
+                
             }
-            Timer = 0.05f;
+        }*/
+        /*if (Input.GetButtonDown("Fire1"))
+        {
+            BringFish();
+        }*/
+
+        Detect();
+    }
+    
+
+    void BringFish()
+    {
+        Ray camRay = Camera.main.ScreenPointToRay(Input.mousePosition);
+        RaycastHit hit;
+        if (Physics.Raycast(camRay, out hit, 1000))
+        {
+            if (hit.collider.tag == "pullable")
+            {
+                fish = hit.collider.gameObject;
+                pulling = true;
+            }
         }
     }
 
-    void SpawnNet()
-    {   
-        Instantiate(Net, transform.position - transform.forward * distance, transform.rotation);
+    public void Detect()
+    {
+        fishes = GameObject.FindGameObjectsWithTag("Fish");
+        Vector3 position = transform.position;
+        foreach (GameObject fish in fishes)
+        {
+            Vector3 diff = fish.transform.position - position;
+            float distance = diff.magnitude;
+            Debug.Log("Distance is:" + distance);
+            if (distance < 10f)
+            {
+                closest = fish;
+
+                line.positionCount = 2;
+                line.SetPosition(0, gameObject.transform.position);
+                line.SetPosition(1, closest.transform.position);
+
+                float distancee = Vector3.Distance(closest.transform.position, bringPosition.position);
+                closest.transform.position = Vector3.Lerp(closest.transform.position, bringPosition.position, Time.deltaTime * 5);
+            }
+
+        }
+
+        //Debug.Log("Close one is:" + closest);
+
+
     }
 
-    /*
-    IEnumerator waiter()
-    {
-            yield return null;
-            yield return new WaitForSeconds(1);
-            Instantiate(Net, transform.position - transform.forward * distance, transform.rotation);
-    }*/
 }

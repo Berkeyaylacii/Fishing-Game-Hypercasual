@@ -64,6 +64,7 @@
     <Compile Include="Assets\Scripts\FishSpawner.cs" />
     <Compile Include="Assets\BoatFloater.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Detector.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\LowPolyWater_Pack\Shaders\WaterShaded.shader" />

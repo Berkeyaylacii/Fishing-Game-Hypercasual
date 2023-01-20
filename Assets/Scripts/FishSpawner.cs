@@ -6,6 +6,8 @@ public class FishSpawner : MonoBehaviour
 {
     public GameObject Fish;
 
+    public List<GameObject> fishes = new List<GameObject>();
+
     public int fishCounter;
     // Start is called before the first frame update
     void Start()
@@ -14,9 +16,9 @@ public class FishSpawner : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        
+    void FixedUpdate()
+    {           
+            
     }
 
     IEnumerator waiter()
@@ -26,8 +28,11 @@ public class FishSpawner : MonoBehaviour
             yield return null;
             yield return new WaitForSeconds(3);
             Vector3 position = new Vector3(Random.Range(-20.0F, 20.0F), 1, Random.Range(-20.0F, 20.0F));
+            
             Instantiate(Fish, position, Quaternion.identity);
-            fishCounter++;
+            
+            
+            fishCounter++;            
         }
 
     }
