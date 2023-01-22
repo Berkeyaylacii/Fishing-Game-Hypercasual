@@ -9,6 +9,7 @@ public class CatchFish : MonoBehaviour
     TextMeshProUGUI score_txt;
 
     GameObject[] fishes;
+    GameObject[] cashes;
     GameObject closest;
 
     private LineRenderer line;
@@ -16,19 +17,17 @@ public class CatchFish : MonoBehaviour
     public GameObject fish;
 
     public GameObject cash;
-    public GameObject cashUI;
-
-    GameObject cube;
+    public Transform cashUI;
 
     private Camera mainCamera;
 
+    public bool moveCash = false;
     // Start is called before the first frame update
     void Start()
     {
         line = gameObject.GetComponent < LineRenderer>();
         mainCamera = Camera.main;
 
-        cashUI = GameObject.FindGameObjectWithTag("CashUI");
 
         line.enabled = false;
         score_txt = GameObject.FindGameObjectWithTag("Score").GetComponent<TextMeshProUGUI>();
@@ -40,11 +39,29 @@ public class CatchFish : MonoBehaviour
     {
         DetectandCatch();
 
+        if(moveCash == true)
+        {
+            MoveCashObject();
+        }
     }
     
+    void MoveCashObject()
+    {
+        Vector3 targetPos = GetCashUIIconPosition(cash.transform.position);
+
+        cashes = GameObject.FindGameObjectsWithTag("Cash");
+        foreach (GameObject cash in cashes)
+        {
+            cash.transform.position = Vector3.Lerp(cash.transform.position, targetPos, Time.deltaTime * 5f);
+
+            if (Vector3.Distance(cash.transform.position, targetPos) < 2f)
+            {
+                GameObject.Destroy(cash);
+            }
+        }
+    }
     public void DetectandCatch()
-    {   
-        
+    {        
         fishes = GameObject.FindGameObjectsWithTag("Fish");
         Vector3 position = transform.position;
         foreach (GameObject fish in fishes)
@@ -75,20 +92,16 @@ public class CatchFish : MonoBehaviour
                     //Generate cash and move to the icon position
                     Instantiate(cash, position, Quaternion.identity);
 
-                    /*Vector3 targetPos = GetIconPosition(cash.transform.position);
-                    cash.transform.position = Vector3.Lerp(cash.transform.position, targetPos, Time.deltaTime * 5f);*/
+                    moveCash = true;
                 }
-
             }
-
         }
-
-
     }
 
-    public Vector3 GetIconPosition(Vector3 target)
+
+    public Vector3 GetCashUIIconPosition(Vector3 target)
     {
-        Vector3 uiPos = cashUI.transform.position;
+        Vector3 uiPos = cashUI.position;
         uiPos.z = (target - mainCamera.transform.position).z ;
 
         Vector3 result = mainCamera.ScreenToWorldPoint(uiPos);
