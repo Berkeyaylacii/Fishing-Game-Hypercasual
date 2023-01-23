@@ -56,7 +56,7 @@ public class CatchFish : MonoBehaviour
 
             if (Vector3.Distance(cash.transform.position, targetPos) < 2f)
             {
-                GameObject.Destroy(cash);
+                //GameObject.Destroy(cash);
             }
         }
     }
@@ -68,7 +68,7 @@ public class CatchFish : MonoBehaviour
         {
             Vector3 diff = fish.transform.position - position;
             float distance = diff.magnitude;
-            if (distance < 10f)
+            if (distance < 3f)
             {
                 line.enabled = true;
                 closest = fish;

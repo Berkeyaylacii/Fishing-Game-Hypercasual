@@ -348,7 +348,20 @@
 -r:"Library/Bee/artifacts/500b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/500b0aE.dag/UnityEngine.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/500b0aE.dag/UnityEngine.UI.ref.dll"
-"Assets/LowPolyWater_Pack/Scripts/Editor/GeneratePlane.cs"
+"Assets/#NVJOB Boids/Example Scenes/Standard Assets/Editor/ImageEffects/AntialiasingEditor.cs"
+"Assets/#NVJOB Boids/Example Scenes/Standard Assets/Editor/ImageEffects/BloomAndFlaresEditor.cs"
+"Assets/#NVJOB Boids/Example Scenes/Standard Assets/Editor/ImageEffects/BloomEditor.cs"
+"Assets/#NVJOB Boids/Example Scenes/Standard Assets/Editor/ImageEffects/CameraMotionBlurEditor.cs"
+"Assets/#NVJOB Boids/Example Scenes/Standard Assets/Editor/ImageEffects/ColorCorrectionCurvesEditor.cs"
+"Assets/#NVJOB Boids/Example Scenes/Standard Assets/Editor/ImageEffects/ColorCorrectionLookupEditor.cs"
+"Assets/#NVJOB Boids/Example Scenes/Standard Assets/Editor/ImageEffects/CreaseShadingEditor.cs"
+"Assets/#NVJOB Boids/Example Scenes/Standard Assets/Editor/ImageEffects/DepthOfFieldDeprecatedEditor.cs"
+"Assets/#NVJOB Boids/Example Scenes/Standard Assets/Editor/ImageEffects/DepthOfFieldEditor.cs"
+"Assets/#NVJOB Boids/Example Scenes/Standard Assets/Editor/ImageEffects/EdgeDetectionEditor.cs"
+"Assets/#NVJOB Boids/Example Scenes/Standard Assets/Editor/ImageEffects/NoiseAndGrainEditor.cs"
+"Assets/#NVJOB Boids/Example Scenes/Standard Assets/Editor/ImageEffects/SunShaftsEditor.cs"
+"Assets/#NVJOB Boids/Example Scenes/Standard Assets/Editor/ImageEffects/TonemappingEditor.cs"
+"Assets/#NVJOB Boids/Example Scenes/Standard Assets/Editor/ImageEffects/VignetteAndChromaticAberrationEditor.cs"
 -langversion:9.0
 
 /deterministic
