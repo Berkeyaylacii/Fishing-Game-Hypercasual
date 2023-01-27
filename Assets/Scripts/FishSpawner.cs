@@ -23,7 +23,7 @@ public class FishSpawner : MonoBehaviour
 
     IEnumerator waiter()
     {   
-        while( fishCounter <= 3)
+        while( fishCounter <= 10)
         {
             yield return null;
             yield return new WaitForSeconds(3);

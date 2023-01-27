@@ -382,11 +382,13 @@
 "Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs"
 "Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/Vortex.cs"
 "Assets/#NVJOB Boids/Simple Boids/NVBoids.cs"
+"Assets/FishMovement.cs"
 "Assets/Scripts/BoatController.cs"
 "Assets/Scripts/CameraController.cs"
 "Assets/Scripts/CatchFish.cs"
 "Assets/Scripts/DrawPath.cs"
 "Assets/Scripts/FishSpawner.cs"
+"Assets/Scripts/RandomMovement.cs"
 "Assets/Scripts/TrailCollision.cs"
 -langversion:9.0
 

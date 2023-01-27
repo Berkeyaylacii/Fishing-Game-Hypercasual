@@ -324,9 +324,9 @@
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Editor\inspectors\AnimationTrackInspector.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Editor\State\WindowState.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Editor\Manipulators\Move\MoveItemModeRipple.cs" />
-    <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Editor\inspectors\DirectorNamedColorInspector.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Editor\Utilities\Scopes\GUIColorOverride.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Editor\treeview\ItemGui\TimelineClipGUI.cs" />
+    <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Editor\inspectors\DirectorNamedColorInspector.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.unity.timeline@1.7.2\Editor\Unity.Timeline.Editor.asmdef" />
