@@ -29,7 +29,11 @@ public class FishSpawner : MonoBehaviour
             yield return new WaitForSeconds(3);
             Vector3 position = new Vector3(Random.Range(-20.0F, 20.0F), 1, Random.Range(-20.0F, 20.0F));
             
-            Instantiate(Fish, position, Quaternion.identity);
+            if(Fish != null)
+            {
+                Instantiate(Fish, position, Quaternion.identity);
+            }
+            
             
             
             fishCounter++;            
