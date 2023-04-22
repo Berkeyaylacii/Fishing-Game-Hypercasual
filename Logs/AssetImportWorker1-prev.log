@@ -1,0 +1,2192 @@
+Using pre-set license
+Built from '2021.3/evg/staging/82bb020e-b03b1330/draft-0' branch; Version is '2021.3.16f1 (4016570cf34f) revision 4200023'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22623) 64bit Core' Language: 'tr' Physical Memory: 16318 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/Berke/OneDrive/Belgeler/GitHub/Fishing-Game-Hypercasual
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+59235
+Successfully changed project path to: C:/Users/Berke/OneDrive/Belgeler/GitHub/Fishing-Game-Hypercasual
+C:/Users/Berke/OneDrive/Belgeler/GitHub/Fishing-Game-Hypercasual
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [5512] Host "[IP] 192.168.1.25 [Port] 0 [Flags] 2 [Guid] 205012048 [EditorId] 205012048 [Version] 1048832 [Id] WindowsEditor(7,Berke) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [5512] Host "[IP] 192.168.1.25 [Port] 0 [Flags] 2 [Guid] 205012048 [EditorId] 205012048 [Version] 1048832 [Id] WindowsEditor(7,Berke) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 27.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.16f1 (4016570cf34f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Berke/OneDrive/Belgeler/GitHub/Fishing-Game-Hypercasual/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2070 SUPER (ID=0x1e84)
+    Vendor:   NVIDIA
+    VRAM:     8003 MB
+    Driver:   31.0.15.3118
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56616
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006424 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 25.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.524 seconds
+Domain Reload Profiling:
+	ReloadAssembly (524ms)
+		BeginReloadAssembly (63ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (364ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (98ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (201ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (56ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (26ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (81ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002836 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.888 seconds
+Domain Reload Profiling:
+	ReloadAssembly (889ms)
+		BeginReloadAssembly (234ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (125ms)
+		EndReloadAssembly (556ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (169ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (258ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (43ms)
+				ProcessInitializeOnLoadAttributes (169ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1862 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (57.0 KB). Loaded Objects now: 2349.
+Memory consumption went from 107.8 MB to 107.8 MB.
+Total: 2.363800 ms (FindLiveObjects: 0.173800 ms CreateObjectMapping: 0.075800 ms MarkObjects: 2.043800 ms  DeleteObjects: 0.069700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4368875.672998 seconds.
+  path: Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+  artifactKey: Guid(d82c1b31c7e74239bff1220585707d2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt using Guid(d82c1b31c7e74239bff1220585707d2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '94a46b7f3d7e7643dac6ad96a58bb99d') in 0.119297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/#NVJOB Boids/Simple Boids/Mesh/Bird Mesh.fbx
+  artifactKey: Guid(b195be9e97e40fc48a8e0dc484fd91d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Simple Boids/Mesh/Bird Mesh.fbx using Guid(b195be9e97e40fc48a8e0dc484fd91d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '14f68425f3a731ff10a31d61f4309292') in 0.061525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/SC Shaders (Legacy)/SC Shader (Normalmap, Reflection, Cull Off).shader
+  artifactKey: Guid(0fe2ba0b7389b1b4f8d118666cd4a825) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/SC Shaders (Legacy)/SC Shader (Normalmap, Reflection, Cull Off).shader using Guid(0fe2ba0b7389b1b4f8d118666cd4a825) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dadaffc365f6290f8333a5a02c09e9f0') in 0.019102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/#NVJOB Boids/Simple Boids/Mesh/Fish Mesh.fbx
+  artifactKey: Guid(e67b29967d506a0408e193df7656c30c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Simple Boids/Mesh/Fish Mesh.fbx using Guid(e67b29967d506a0408e193df7656c30c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '45debbe85fd85c0a70706e4995e2ddcd') in 0.015453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Color Profile/Bird.png
+  artifactKey: Guid(b11e273987cffbc47a3c8e77b587560b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Color Profile/Bird.png using Guid(b11e273987cffbc47a3c8e77b587560b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd873608ccad0e03a3a765fb81bb46020') in 0.040913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Alstra Infinite/Fish - PolyPack/Materials/Main.mat
+  artifactKey: Guid(284830dd46ce77c4696ef63853c7cf5e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Alstra Infinite/Fish - PolyPack/Materials/Main.mat using Guid(284830dd46ce77c4696ef63853c7cf5e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2c2e9fbb31a50ceb48e2a66f538d5a6c') in 0.029971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scripts/TrailCollision.cs
+  artifactKey: Guid(b89c80e24e5eb8a44a91031749d6f808) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/TrailCollision.cs using Guid(b89c80e24e5eb8a44a91031749d6f808) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '477a358c90c5ffaa11392b9038aadb6f') in 0.010313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/SC Shaders (Legacy)/SC Shader for water.shader
+  artifactKey: Guid(3c22be1ea032db648b119abc61eea931) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/SC Shaders (Legacy)/SC Shader for water.shader using Guid(3c22be1ea032db648b119abc61eea931) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '23b18fbf2b7c621b5d6f5f56dac90018') in 0.011034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Alstra Infinite/Fish - PolyPack/Prefabs/FishV4.prefab
+  artifactKey: Guid(a05072560c3476b4cb8dddf22f697392) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Alstra Infinite/Fish - PolyPack/Prefabs/FishV4.prefab using Guid(a05072560c3476b4cb8dddf22f697392) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aa92c572bc3f5a037545b55488edffd2') in 0.020316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0ddbfcf207da990f0d8331e1d26e4d3b') in 0.023408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Fish 0 Pref(Clone).prefab
+  artifactKey: Guid(310c71d298a14e84eb27f1360f6b7eef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fish 0 Pref(Clone).prefab using Guid(310c71d298a14e84eb27f1360f6b7eef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ee001f22c8f338a67a94604391fe5ed6') in 0.011172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Alstra Infinite/Fish - PolyPack/Prefabs/SharkV1.prefab
+  artifactKey: Guid(2fb93ff3c1250a74ca5f53a6bc162675) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Alstra Infinite/Fish - PolyPack/Prefabs/SharkV1.prefab using Guid(2fb93ff3c1250a74ca5f53a6bc162675) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '11244c02bb9e492ac34a1864476fd899') in 0.012594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Low Poly Single Boat/Prefabs/single boat.prefab
+  artifactKey: Guid(e9ccc27bb6f9f944e8bda508e30456a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Low Poly Single Boat/Prefabs/single boat.prefab using Guid(e9ccc27bb6f9f944e8bda508e30456a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dbe1fe10530e0d6d9ac52c1f8b6a1c8a') in 0.011520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/FPS Counter/FPS Counter.prefab
+  artifactKey: Guid(fc243675728653a4093f82ccb2e59921) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/FPS Counter/FPS Counter.prefab using Guid(fc243675728653a4093f82ccb2e59921) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5e7d6181088e5969150cefa5811d1ebc') in 0.032631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/SkyBox Two Colors/SkyBox Two Colors.mat
+  artifactKey: Guid(4ac976872c593114994a1b7a02b97fce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/SkyBox Two Colors/SkyBox Two Colors.mat using Guid(4ac976872c593114994a1b7a02b97fce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7e257ae4de915adf8c32d83842467481') in 0.012180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/#NVJOB Boids/license_nvjob.txt
+  artifactKey: Guid(a05ca7034797a3047803ed1ff6d64552) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/license_nvjob.txt using Guid(a05ca7034797a3047803ed1ff6d64552) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5f907920d2a77b6563413f2f80a7618d') in 0.009644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Sprite.shader
+  artifactKey: Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Sprite.shader using Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fbfec8ec5429f48719f4f885c71d3cb2') in 0.008915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Alstra Infinite/Fish - PolyPack/Prefabs/FishV3.prefab
+  artifactKey: Guid(de500f6b90f89bc4c87a6585b2dea01a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Alstra Infinite/Fish - PolyPack/Prefabs/FishV3.prefab using Guid(de500f6b90f89bc4c87a6585b2dea01a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3d2bf0e27983e9f73e21d0960ebd03a4') in 0.015849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+  artifactKey: Guid(381dcb09d5029d14897e55f98031fca5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt using Guid(381dcb09d5029d14897e55f98031fca5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9fd00803c8cbd83b4b08bf11a49fbbd6') in 0.009671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aaa00f53bfcc8419f77e3a4b382212d9') in 0.029587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7419325798056d538b664b3155eefbc3') in 0.019206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Foam.mat
+  artifactKey: Guid(ca595b261db0bf1408b04fe5099ef6ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Foam.mat using Guid(ca595b261db0bf1408b04fe5099ef6ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fbf726a7c0b5ae95527531741778a72c') in 0.007484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Alstra Infinite/Fish - PolyPack/Models/FishV4.fbx
+  artifactKey: Guid(ea93ead513f04c9478f78e3f40ba5b11) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Alstra Infinite/Fish - PolyPack/Models/FishV4.fbx using Guid(ea93ead513f04c9478f78e3f40ba5b11) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '66c02f618fefe0edb24e1125faf24acc') in 0.017193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Alstra Infinite/Fish - PolyPack/Scene/Showcase.unity
+  artifactKey: Guid(bfc401a16d438de498be934d79641f4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Alstra Infinite/Fish - PolyPack/Scene/Showcase.unity using Guid(bfc401a16d438de498be934d79641f4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e53c650e1bd98575a0960ca08eae7568') in 0.006250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
+  artifactKey: Guid(c8d12adcee749c344b8117cf7c7eb912) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader using Guid(c8d12adcee749c344b8117cf7c7eb912) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ccc85ab5e33afb449bb0b1cace6ca88f') in 0.009890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+  artifactKey: Guid(fade42e8bc714b018fac513c043d323b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt using Guid(fade42e8bc714b018fac513c043d323b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ea229fecd8d1fa7f2a5dc7dc6991b7b4') in 0.006308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/SkyBox Two Colors/SkyBox Two Colors 1.mat
+  artifactKey: Guid(97956eaaf3b2cd84ebd810bd6ce66247) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/SkyBox Two Colors/SkyBox Two Colors 1.mat using Guid(97956eaaf3b2cd84ebd810bd6ce66247) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b608507b1ca80cc373f2cd8798f05954') in 0.011435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/#NVJOB Boids/Simple Boids/Fish NX Shaders.shader
+  artifactKey: Guid(26c90aba988b96841aaf4470d96346fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Simple Boids/Fish NX Shaders.shader using Guid(26c90aba988b96841aaf4470d96346fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '758558fd49d500025ff8e517acde0eca') in 0.011103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+  artifactKey: Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader using Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '143e64395be4de4a04bf76e4590daefa') in 0.010185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Alstra Infinite/Fish - PolyPack/Prefabs/FishV2.prefab
+  artifactKey: Guid(67de17aaa6711224f80123d9b1ef8cb7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Alstra Infinite/Fish - PolyPack/Prefabs/FishV2.prefab using Guid(67de17aaa6711224f80123d9b1ef8cb7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd32cc95f1590e0ac83081780ebe98f3c') in 0.015493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0aa931ef71b84de3444a4d0c681cc76f') in 0.027968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/SkyBox Two Colors/SkyBox Two Colors.shader
+  artifactKey: Guid(f0b793eee99b21343b3dac7a94da6e2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/SkyBox Two Colors/SkyBox Two Colors.shader using Guid(f0b793eee99b21343b3dac7a94da6e2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'afea11c894224e480e59074e2db45caf') in 0.008316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Scenes/Fish Boids.unity
+  artifactKey: Guid(32a17a59e28be644cbfabd316e9d3fe3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Scenes/Fish Boids.unity using Guid(32a17a59e28be644cbfabd316e9d3fe3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '568628d9ea0a2bca92bb447aca5c50a4') in 0.006093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Alstra Infinite/Fish - PolyPack/Models/FishV2.fbx
+  artifactKey: Guid(a8fd0d08c30426d4c978a4998752cf7d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Alstra Infinite/Fish - PolyPack/Models/FishV2.fbx using Guid(a8fd0d08c30426d4c978a4998752cf7d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6b326f00db36e307cf83c05a94090ac0') in 0.014889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+  artifactKey: Guid(1e3b057af24249748ff873be7fafee47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader using Guid(1e3b057af24249748ff873be7fafee47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0f3d635f55b1c0f8386c6d21be87e1f7') in 0.009724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+  artifactKey: Guid(c41005c129ba4d66911b75229fd70b45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset using Guid(c41005c129ba4d66911b75229fd70b45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '07e21d7cbf5db1cf01cee3700fe2df3b') in 0.010282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Low Poly Single Boat/Materials/boat-single.mat
+  artifactKey: Guid(9b5245bfe2cbf7e459251d7832d8388f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Low Poly Single Boat/Materials/boat-single.mat using Guid(9b5245bfe2cbf7e459251d7832d8388f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a8512fce713978e1ae5d86390f05a769') in 0.008629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/SC Shaders (Legacy)/SC Shader (Normalmap, Occlusion, Reflection, Cull Off).shader
+  artifactKey: Guid(276179b8b0dc7db4eb29e60ef637b484) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/SC Shaders (Legacy)/SC Shader (Normalmap, Occlusion, Reflection, Cull Off).shader using Guid(276179b8b0dc7db4eb29e60ef637b484) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '04c534f1e09345c162c5b99e6f5ab39e') in 0.010761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Scenes/Bird Boids.unity
+  artifactKey: Guid(9407f0076889c6748ad74c68c9903fa6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Scenes/Bird Boids.unity using Guid(9407f0076889c6748ad74c68c9903fa6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '04a7740cd4d3cc052b5c27c16c8c3e20') in 0.006104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Dynamic Sky Lite/Dynamic Sky Lite Standard Clouds Type 2.shader
+  artifactKey: Guid(c03d994bf3f70ef4e938d325e5209928) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Dynamic Sky Lite/Dynamic Sky Lite Standard Clouds Type 2.shader using Guid(c03d994bf3f70ef4e938d325e5209928) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'afc2d658a5c7c59c3c60a4b1157e04b9') in 0.011148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+  artifactKey: Guid(3997e2241185407d80309a82f9148466) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc using Guid(3997e2241185407d80309a82f9148466) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b2f365fef93abfeb3e1e0ebbc0cd65ef') in 0.011772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+  artifactKey: Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt using Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd1b8a593dbd624361405b488738b9a4d') in 0.009571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Fish.prefab
+  artifactKey: Guid(94f30a3356e9c60499f0328b632bc728) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fish.prefab using Guid(94f30a3356e9c60499f0328b632bc728) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e3835a4358fb505ec889daac957bd0ce') in 0.008100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/SC Shaders (Legacy)/SC Shader (Cutout. Normalmap, Reflection, Cull Off).shader
+  artifactKey: Guid(1053e708819668b49bac5469d906c507) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/SC Shaders (Legacy)/SC Shader (Cutout. Normalmap, Reflection, Cull Off).shader using Guid(1053e708819668b49bac5469d906c507) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cfe927d1c6b580288ba02de4a456b6fc') in 0.011170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Low Poly Single Boat/3D Models/single boat.fbx
+  artifactKey: Guid(7c7a4d44caacb6f4b9be0c256699803f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Low Poly Single Boat/3D Models/single boat.fbx using Guid(7c7a4d44caacb6f4b9be0c256699803f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b09109ccc8bfd7c3411ba4f20d9b63b6') in 0.034884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/SC Shaders (Legacy)/SC Shader (Transparent. Normalmap, Reflection, Cull Off).shader
+  artifactKey: Guid(52f07155701e34342af80d8b54af20e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/SC Shaders (Legacy)/SC Shader (Transparent. Normalmap, Reflection, Cull Off).shader using Guid(52f07155701e34342af80d8b54af20e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '41870ea6fe6fbea0fbfe6700c604aaee') in 0.009795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Dynamic Sky Lite/Dynamic Sky Lite Standard Horizon.shader
+  artifactKey: Guid(7fb83cb145f2840439d904ef5452d56b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Dynamic Sky Lite/Dynamic Sky Lite Standard Horizon.shader using Guid(7fb83cb145f2840439d904ef5452d56b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '15c778f21376f2091a1e66869137b5a8') in 0.010706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.837373 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Water Shader SAF/Water.cs
+  artifactKey: Guid(8e37ce6c6e7ecdd42a13048d391f594b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Water Shader SAF/Water.cs using Guid(8e37ce6c6e7ecdd42a13048d391f594b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e71fa7e1d418aa6d4fabff57f3aa7d60') in 0.006534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/#NVJOB Boids/Simple Boids/Materials/Fish 0/Fish 0.mat
+  artifactKey: Guid(0aeff8716f662ac40bef880920d285c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Simple Boids/Materials/Fish 0/Fish 0.mat using Guid(0aeff8716f662ac40bef880920d285c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1403847d0d824d86a93b6bd768fbcdd8') in 0.017062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/#NVJOB Boids/Simple Boids/Materials/Butterfly/Butterfly e.png
+  artifactKey: Guid(4c632a8ccb5f52f4c943d9de92f75622) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Simple Boids/Materials/Butterfly/Butterfly e.png using Guid(4c632a8ccb5f52f4c943d9de92f75622) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9aabbcf153d07a86fb744a8f32574d90') in 0.020638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Other/Sounds/Sound1.ogg
+  artifactKey: Guid(632383ff2891f0e4aaddf5a9b13795ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Other/Sounds/Sound1.ogg using Guid(632383ff2891f0e4aaddf5a9b13795ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '43992a1346a7f5f8e29fa251399835a3') in 0.064015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/#NVJOB Boids/Simple Boids/Materials/Fish 2/Fish 2 N2.png
+  artifactKey: Guid(dc5327993f342174b91fbb4fe950f1f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Simple Boids/Materials/Fish 2/Fish 2 N2.png using Guid(dc5327993f342174b91fbb4fe950f1f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '93532249d9103288ad99f179e6f44660') in 0.019638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Other/Sand/Materials/Sand h.png
+  artifactKey: Guid(405ff9838ce49c04eb7287a17648af50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Other/Sand/Materials/Sand h.png using Guid(405ff9838ce49c04eb7287a17648af50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '26195fb24d816c35391e81ea6474d346') in 0.021030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Other/Shark/Materials/Shark a.png
+  artifactKey: Guid(02a105d58f1eab444860ab360660f2cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Other/Shark/Materials/Shark a.png using Guid(02a105d58f1eab444860ab360660f2cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1dff6d929ace2f68947b755d2d270ef6') in 0.022400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Other/Arena/Materials/Flowers a.png
+  artifactKey: Guid(eb0881a1a5533e04a99c93ec0edb9916) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Other/Arena/Materials/Flowers a.png using Guid(eb0881a1a5533e04a99c93ec0edb9916) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2d100ada20badc3f6a6566a8d3272345') in 0.022341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Other/Underwater/God rays.png
+  artifactKey: Guid(4631037fce4fc5f4498e0c3499a946c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Other/Underwater/God rays.png using Guid(4631037fce4fc5f4498e0c3499a946c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '76cf51db6e13087bd598533ebd9c5a84') in 0.029075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/#NVJOB Boids/Simple Boids/Materials/Fish 2/Fish 2a.mat
+  artifactKey: Guid(cc9cabbe660676f44bfc2d207644a8b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Simple Boids/Materials/Fish 2/Fish 2a.mat using Guid(cc9cabbe660676f44bfc2d207644a8b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3096ba69e874829ed95d00a0d58d2383') in 0.019673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Other/Sounds/Underwater.ogg
+  artifactKey: Guid(e4a6779c142fa2e4db0b7d93f1dafe10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Other/Sounds/Underwater.ogg using Guid(e4a6779c142fa2e4db0b7d93f1dafe10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3e6b7df9a8049b985f0272b8ed26a05e') in 0.056757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Other/Underwater/Caustics.png
+  artifactKey: Guid(9d6601c07101627429773e92a002d8e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Other/Underwater/Caustics.png using Guid(9d6601c07101627429773e92a002d8e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fc2c47889f7bde8cfc8f7009979840dd') in 0.024750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Dynamic Sky Lite/Materials/Ref d.exr
+  artifactKey: Guid(b2edd3146a154b04f920f368b991d659) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Dynamic Sky Lite/Materials/Ref d.exr using Guid(b2edd3146a154b04f920f368b991d659) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'daa20277ffd3dfac78bc3064b3d6153b') in 0.020891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/#NVJOB Boids/Simple Boids/Materials/Bird/Bird s.png
+  artifactKey: Guid(455660fcdc0c9e24ab37aa233275085a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Simple Boids/Materials/Bird/Bird s.png using Guid(455660fcdc0c9e24ab37aa233275085a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '76890e0122c7534a3b7fe2014d350fb4') in 0.015386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/#NVJOB Boids/Simple Boids/Materials/Butterfly/Butterfly a.png
+  artifactKey: Guid(b45cbb8162983a643b10804e2feba4ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Simple Boids/Materials/Butterfly/Butterfly a.png using Guid(b45cbb8162983a643b10804e2feba4ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '88663c4c602f925d193c841123f80ba6') in 0.020974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/#NVJOB Boids/Simple Boids/Materials/Fish 1/Fish 1 A1.png
+  artifactKey: Guid(507ed840cfeadef4ebe97bcabc7e9a6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Simple Boids/Materials/Fish 1/Fish 1 A1.png using Guid(507ed840cfeadef4ebe97bcabc7e9a6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '02b633c2b93407ad46980480773b16f6') in 0.014432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/#NVJOB Boids/Simple Boids/Materials/Fish 1/Fish 1 A2.png
+  artifactKey: Guid(be405a44f37cffc489b6d716bcaae4d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Simple Boids/Materials/Fish 1/Fish 1 A2.png using Guid(be405a44f37cffc489b6d716bcaae4d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'da8c014925b52378b12f617914f8bb03') in 0.015430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/#NVJOB Boids/Simple Boids/Prefabs/Fish/NVBoids Fish.prefab
+  artifactKey: Guid(189bfce550a467b4d9b998c857a3e26b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Simple Boids/Prefabs/Fish/NVBoids Fish.prefab using Guid(189bfce550a467b4d9b998c857a3e26b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '939612fd9935bb990c6218e9ea427bc7') in 0.013489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Other/Scripts/Underwater.cs
+  artifactKey: Guid(f365ef38b5a02524d80aa471a8e39241) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Other/Scripts/Underwater.cs using Guid(f365ef38b5a02524d80aa471a8e39241) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '698c7e3807c559e81d90d74c1068d9d5') in 0.007096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/#NVJOB Boids/Simple Boids/Prefabs/Fish/Fish 2 Pref.prefab
+  artifactKey: Guid(4245ff9a4dd9cd24d8b511911616bf71) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Simple Boids/Prefabs/Fish/Fish 2 Pref.prefab using Guid(4245ff9a4dd9cd24d8b511911616bf71) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '26c7c47cb820ae9ed801019e1aea9185') in 0.012648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/#NVJOB Boids/Simple Boids/Prefabs/Butterfly/Butterfly.prefab
+  artifactKey: Guid(94627e1867eb31e4583550292fbbb516) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Simple Boids/Prefabs/Butterfly/Butterfly.prefab using Guid(94627e1867eb31e4583550292fbbb516) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '56ad3df80dec60e5b87a766788687924') in 0.012705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Other/Arena/Materials/Flowers n.png
+  artifactKey: Guid(701cde11316f06944a2e8d79ba6de106) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Other/Arena/Materials/Flowers n.png using Guid(701cde11316f06944a2e8d79ba6de106) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6f809ce95ff7fe5245129868aacce9df') in 0.018989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionCurves.shader
+  artifactKey: Guid(62bcade1028c24ca1a39760ed84b9487) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionCurves.shader using Guid(62bcade1028c24ca1a39760ed84b9487) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '993de37deb220e2b79d12c44d285649f') in 0.009866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs
+  artifactKey: Guid(a20852ce049f64e4695a48b6a354be83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs using Guid(a20852ce049f64e4695a48b6a354be83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '78c468e1018060849b5d611fa63d74d1') in 0.007509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/Bloom.cs
+  artifactKey: Guid(7fceaeb339b971b429c4cc600acabd13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/Bloom.cs using Guid(7fceaeb339b971b429c4cc600acabd13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9876619351c6e74543ad96a3b1aa0898') in 0.007674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/ScreenSpaceAmbientObscurance.shader
+  artifactKey: Guid(95616c020c5604dda96cf76afbbc0272) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/ScreenSpaceAmbientObscurance.shader using Guid(95616c020c5604dda96cf76afbbc0272) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aa66ddc2432811a2fa861b5163656acf') in 0.013115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Other/Shark/Materials/Shark n.png
+  artifactKey: Guid(0cd37e51150134e438f48f7b39b25be7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Other/Shark/Materials/Shark n.png using Guid(0cd37e51150134e438f48f7b39b25be7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aca67388caca7331d6b8c8be897f2385') in 0.020628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/ContrastStretch.cs
+  artifactKey: Guid(ec92b071d2d424aecb3e46f28eb63174) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/ContrastStretch.cs using Guid(ec92b071d2d424aecb3e46f28eb63174) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '589a8993d62e645cc2cf6a2c7b01780a') in 0.008247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/CameraMotionBlur.cs
+  artifactKey: Guid(97e9b95cf609d96409b6c40519432957) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/CameraMotionBlur.cs using Guid(97e9b95cf609d96409b6c40519432957) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bc6e73ac3f26aaabfa9fd4ebae0c5423') in 0.008122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/MotionBlur.cs
+  artifactKey: Guid(478a2083ad114a07d000fbfb8d76c639) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/MotionBlur.cs using Guid(478a2083ad114a07d000fbfb8d76c639) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a6e761538cd380d12ed9347a29fb8140') in 0.009578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/CameraMotionBlurDX11.shader
+  artifactKey: Guid(f1b13d7a80660504a858ea24cfa418c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/CameraMotionBlurDX11.shader using Guid(f1b13d7a80660504a858ea24cfa418c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1de19e7339361a5a08703fd8f2bf06a7') in 0.011411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/TiltShift.cs
+  artifactKey: Guid(a22b3a7095a744a428c134b5e26ad68e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/TiltShift.cs using Guid(a22b3a7095a744a428c134b5e26ad68e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bdee37b9d3ec781999cba2689e45aa5b') in 0.007423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/NoiseEffectShaderYUV.shader
+  artifactKey: Guid(0e447868506ba49f0a73235b8a8b647a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/NoiseEffectShaderYUV.shader using Guid(0e447868506ba49f0a73235b8a8b647a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '42d49331262f20a012b0a25d8f3fe04d') in 0.010714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/ShowAlphaChannel.shader
+  artifactKey: Guid(da310021e2a4142429d95c537846dc38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/ShowAlphaChannel.shader using Guid(da310021e2a4142429d95c537846dc38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3e8071e699674b6477d152e285d0d42d') in 0.010145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/BloomAndFlares.cs
+  artifactKey: Guid(02536f33053638549ab5c50ff3ecc0de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/BloomAndFlares.cs using Guid(02536f33053638549ab5c50ff3ecc0de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd895bcae189e2f74239e5c38b0579563') in 0.007747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/Fisheye.cs
+  artifactKey: Guid(4739c22ef73ad62488fe344c8fe9addd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/Fisheye.cs using Guid(4739c22ef73ad62488fe344c8fe9addd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '244c022e60c7b77a5e81f290ae391dcd') in 0.007548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs
+  artifactKey: Guid(b6f4318ec6c2bf643a0f9edfeeaba0ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs using Guid(b6f4318ec6c2bf643a0f9edfeeaba0ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1fc5d2066b11590abe42ee06efd42d80') in 0.008363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/RadialBlur.shader
+  artifactKey: Guid(f58445347fe2e4b8396487ed2bfa02ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/RadialBlur.shader using Guid(f58445347fe2e4b8396487ed2bfa02ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c82e996f0274bef1715c7a14b24cc7b0') in 0.009828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Other/Shark/Materials/Shark e.png
+  artifactKey: Guid(1f1d84941d0fa4445a1ffb7d93c4e98a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Other/Shark/Materials/Shark e.png using Guid(1f1d84941d0fa4445a1ffb7d93c4e98a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '43ad5712ec7af2fdfdac5ab757de4297') in 0.020014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Standard Assets/Editor/ImageEffects/ColorCorrectionCurvesEditor.cs
+  artifactKey: Guid(a4a9489f73e4f0344ab3fc97bdf5170b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Standard Assets/Editor/ImageEffects/ColorCorrectionCurvesEditor.cs using Guid(a4a9489f73e4f0344ab3fc97bdf5170b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3edb5788c62acc991cd1d0b17317bb2f') in 0.007984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/Vortex.cs
+  artifactKey: Guid(a94b781cad112c75d0008dfa8d76c639) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/Vortex.cs using Guid(a94b781cad112c75d0008dfa8d76c639) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dded568b7be0119d367b07920ff99f40') in 0.007811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/#NVJOB Boids/Simple Boids/Prefabs/Fish/Fish 0 Pref.prefab
+  artifactKey: Guid(e77b7e344112b5f4c8d708dc75ad5c16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Simple Boids/Prefabs/Fish/Fish 0 Pref.prefab using Guid(e77b7e344112b5f4c8d708dc75ad5c16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f156faeee6d679afc27ca61afcaa9b07') in 0.012073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Other/Particles/Smog tex.png
+  artifactKey: Guid(26aa384cac7601547ba0b68492cad047) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Other/Particles/Smog tex.png using Guid(26aa384cac7601547ba0b68492cad047) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '94121c4c297751a9e13ffd1ba5e1765f') in 0.024246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionCurves.cs
+  artifactKey: Guid(1fd999d1b2cf94a45a5b0a47ce074bef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionCurves.cs using Guid(1fd999d1b2cf94a45a5b0a47ce074bef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4ae0f293776762a69b0d407b27e30cd0') in 0.007482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Other/Arena/Prefabs/Arena.prefab
+  artifactKey: Guid(7e4bdb064d041804ca0ba48b59832685) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Other/Arena/Prefabs/Arena.prefab using Guid(7e4bdb064d041804ca0ba48b59832685) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6efea6993af8d4aa49d3c3b79735a7dd') in 0.020370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionLookup.cs
+  artifactKey: Guid(8cde8c0fd649d9b46bb403ba5e157391) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionLookup.cs using Guid(8cde8c0fd649d9b46bb403ba5e157391) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b129cb892782f2155e6a10610f000e0f') in 0.009549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Dynamic Sky Lite/Materials/Horizen 1 Down B.mat
+  artifactKey: Guid(e6661beabd8ddab42b48bb4865a4765b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Dynamic Sky Lite/Materials/Horizen 1 Down B.mat using Guid(e6661beabd8ddab42b48bb4865a4765b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1e1f37a2ec95b361347a6034bb54dba1') in 0.012760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/#NVJOB Boids/Simple Boids/Materials/Fish 1/Fish 1 N1.png
+  artifactKey: Guid(4664a5bc91b150c4a8c9e3650d38f2fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Simple Boids/Materials/Fish 1/Fish 1 N1.png using Guid(4664a5bc91b150c4a8c9e3650d38f2fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c22e4c0845af9ba9e7e7eafeea2b7d2e') in 0.015624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/#NVJOB Boids/Simple Boids/Materials/Fish 2/Fish 2 E.png
+  artifactKey: Guid(3ed655cd206a6174790425ea623b53b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Simple Boids/Materials/Fish 2/Fish 2 E.png using Guid(3ed655cd206a6174790425ea623b53b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '42c667091098c393700e83ced0a507b8') in 0.019485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Other/Arena/Materials/Grass.mat
+  artifactKey: Guid(a86785c7657e6a343a3d81f9fee4cae5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Other/Arena/Materials/Grass.mat using Guid(a86785c7657e6a343a3d81f9fee4cae5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3fdd67ad06e44df1a5d68cd37a46748d') in 0.016697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/ChromaticAberrationShader.shader
+  artifactKey: Guid(2b4f29398d9484ccfa9fd220449f5eee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/ChromaticAberrationShader.shader using Guid(2b4f29398d9484ccfa9fd220449f5eee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f5a978a4cf54dae65b671f91dc1b9e68') in 0.011274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/#NVJOB Boids/Simple Boids/Materials/Fish 2/Fish 2.mat
+  artifactKey: Guid(54915b3d4079a534e83f7a633f0536a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Simple Boids/Materials/Fish 2/Fish 2.mat using Guid(54915b3d4079a534e83f7a633f0536a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ddbd47163a4b20375c3244433bbbe5ae') in 0.021814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/SSAOShader.shader
+  artifactKey: Guid(43ca18288c424f645aaa1e9e07f04c50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/SSAOShader.shader using Guid(43ca18288c424f645aaa1e9e07f04c50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1535fb5f3ffe5af7a0bc8c2929421b1f') in 0.012723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Other/Sand/Materials/Sand 1.mat
+  artifactKey: Guid(aa59d483644f47843a289b519537b960) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Other/Sand/Materials/Sand 1.mat using Guid(aa59d483644f47843a289b519537b960) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '92ed789eb1660d4e425852130b736d94') in 0.017931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Standard Assets/Editor/ImageEffects/DepthOfFieldEditor.cs
+  artifactKey: Guid(427fdf36119bab44a9131abd19b90f57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Standard Assets/Editor/ImageEffects/DepthOfFieldEditor.cs using Guid(427fdf36119bab44a9131abd19b90f57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c89104d9d191e026bd7e5a34ebe626b4') in 0.007884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Textures/color correction ramp.png
+  artifactKey: Guid(d440902fad11e807d00044888d76c639) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Textures/color correction ramp.png using Guid(d440902fad11e807d00044888d76c639) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '71b29e5d17740d29a1e3e821bafbb084') in 0.017043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Textures/Noise.png
+  artifactKey: Guid(e80c3c84ea861404d8a427db8b7abf04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Textures/Noise.png using Guid(e80c3c84ea861404d8a427db8b7abf04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f23e949d16542cab5f777454ecbeeac9') in 0.017675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAAPreset3.shader
+  artifactKey: Guid(c182fa94a5a0a4c02870641efcd38cd5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAAPreset3.shader using Guid(c182fa94a5a0a4c02870641efcd38cd5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ff2030ecb89353e54b7f292e627aa2da') in 0.009169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Textures/MotionBlurJitter.png
+  artifactKey: Guid(31f5a8611c4ed1245b18456206e798dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Textures/MotionBlurJitter.png using Guid(31f5a8611c4ed1245b18456206e798dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cd77a14caacc00037895c3c39234c6b8') in 0.019757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/MinMaxReduction.shader
+  artifactKey: Guid(57b33a14b6d5347c5a85c36f6cb3b280) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/MinMaxReduction.shader using Guid(57b33a14b6d5347c5a85c36f6cb3b280) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c8a52429681708d0a23afe925e24a47e') in 0.010792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/DepthOfFieldScatter.shader
+  artifactKey: Guid(acd613035ff3e455e8abf23fdc8c8c24) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/DepthOfFieldScatter.shader using Guid(acd613035ff3e455e8abf23fdc8c8c24) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '930682e210c68619009cd86424d3f919') in 0.024312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Other/Scripts/SlowMo.cs
+  artifactKey: Guid(be007f533281ee94aa9aa0f14333a9ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Other/Scripts/SlowMo.cs using Guid(be007f533281ee94aa9aa0f14333a9ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a65cbb44ddf9de3f53e511a700a41286') in 0.008099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Other/Shark/Materials/Shark.mat
+  artifactKey: Guid(3bfe11c511ffb984da89fea8e2997ab1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Other/Shark/Materials/Shark.mat using Guid(3bfe11c511ffb984da89fea8e2997ab1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2922d7c40c5782e69bda993d7234a6c4') in 0.015774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/MotionBlur.shader
+  artifactKey: Guid(e9ba2083ad114a07d000fbfb8d76c639) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/MotionBlur.shader using Guid(e9ba2083ad114a07d000fbfb8d76c639) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '08306f610df82a6865249ccde8b3c9f5') in 0.010653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/ContrastComposite.shader
+  artifactKey: Guid(273404942eede4ea1883ca1fb2942507) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/ContrastComposite.shader using Guid(273404942eede4ea1883ca1fb2942507) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f895ce3b29f28333c0c58d1a9666b923') in 0.009153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/#NVJOB Boids/Simple Boids/Materials/Fish 2/Fish 2 N1.png
+  artifactKey: Guid(2e2e6d02a0945574eae5c8e2a2885258) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Simple Boids/Materials/Fish 2/Fish 2 N1.png using Guid(2e2e6d02a0945574eae5c8e2a2885258) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '997787833e9068609404c84c4a8a0522') in 0.015353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs
+  artifactKey: Guid(e50e925fb93c78246bf995d9dc3a2330) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs using Guid(e50e925fb93c78246bf995d9dc3a2330) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1257d7bcfaf4f844c21607c7f87332d4') in 0.007576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/Blend.shader
+  artifactKey: Guid(53b3960ee3d3d4a5caa8d5473d120187) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/Blend.shader using Guid(53b3960ee3d3d4a5caa8d5473d120187) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aaf8be8ea7bcd5e2811b82507bc6bace') in 0.011962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Standard Assets/Editor/ImageEffects/ColorCorrectionLookupEditor.cs
+  artifactKey: Guid(66c17be95fbf398439ea09f8892a8b43) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Standard Assets/Editor/ImageEffects/ColorCorrectionLookupEditor.cs using Guid(66c17be95fbf398439ea09f8892a8b43) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f44fc2c7cbb400f93bc97ebfa703a633') in 0.007277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/#NVJOB Boids/Simple Boids/Materials/Bird/Birs n.png
+  artifactKey: Guid(e5d667ed7d513484a8eccac3498ef898) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Simple Boids/Materials/Bird/Birs n.png using Guid(e5d667ed7d513484a8eccac3498ef898) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b6f7601b3b3298a6777523886b50ffd6') in 0.015232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/CameraMotionBlur.shader
+  artifactKey: Guid(85a88efa8c871af4a9d17c64791b6f4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/CameraMotionBlur.shader using Guid(85a88efa8c871af4a9d17c64791b6f4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fbba807580c8127d608f0ec5a723ad94') in 0.014193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/BlurOptimized.cs
+  artifactKey: Guid(7fc6bde01469c7b4badee5362f191d96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/BlurOptimized.cs using Guid(7fc6bde01469c7b4badee5362f191d96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eac8c1a572b11d59efa5e21691ce73c9') in 0.008557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/ConvertDepth.shader
+  artifactKey: Guid(14768d3865b1342e3a861fbe19ba2db2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/ConvertDepth.shader using Guid(14768d3865b1342e3a861fbe19ba2db2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9cb80335f0aa56afed80753d3e8aa14e') in 0.010079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/TwirlEffect.shader
+  artifactKey: Guid(641b781cad112c75d0008dfa8d76c639) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/TwirlEffect.shader using Guid(641b781cad112c75d0008dfa8d76c639) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '20ac838a92fe02d00a8fe27f3b332325') in 0.009952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/#NVJOB Boids/Simple Boids/Materials/Butterfly/Butterfly.mat
+  artifactKey: Guid(ae468460ad04bf9459e0abeddf198a6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Simple Boids/Materials/Butterfly/Butterfly.mat using Guid(ae468460ad04bf9459e0abeddf198a6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5b7d8d48e053cf6f0c0ad87cf190e5de') in 0.021434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionRamp.cs
+  artifactKey: Guid(ea59781cad112c75d0008dfa8d76c639) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionRamp.cs using Guid(ea59781cad112c75d0008dfa8d76c639) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f57f17773ca55968268bf0b009151f43') in 0.007661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/#NVJOB Boids/Simple Boids/Materials/Bird/Bird W.mat
+  artifactKey: Guid(923ca4506748b01468bcdb55b8bff93a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Simple Boids/Materials/Bird/Bird W.mat using Guid(923ca4506748b01468bcdb55b8bff93a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '200018e890898d1169425080c5b22ac2') in 0.016279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Scenes/Bird Boids/LightingData.asset
+  artifactKey: Guid(fa9f450434982bd42a700bd6f21a0b7d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Scenes/Bird Boids/LightingData.asset using Guid(fa9f450434982bd42a700bd6f21a0b7d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '121fb303997a405cb6f07470f9696e0f') in 0.017173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Water Shader SAF/Prefabs/Water.prefab
+  artifactKey: Guid(00a8346fcb0e22442b8bad5f0dcf0048) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Water Shader SAF/Prefabs/Water.prefab using Guid(00a8346fcb0e22442b8bad5f0dcf0048) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '39df943a1cb6c2e531e070916ccecd18') in 0.016181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Standard Assets/Editor/ImageEffects/NoiseAndGrainEditor.cs
+  artifactKey: Guid(abd63abcc46fbcb4588164b671b52d3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Standard Assets/Editor/ImageEffects/NoiseAndGrainEditor.cs using Guid(abd63abcc46fbcb4588164b671b52d3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e89d858d39d72a335ef41ee7ba5553b4') in 0.008022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/MultiPassHollywoodFlares.shader
+  artifactKey: Guid(e2baf3cae8edc4daf94c9adc2154be00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/MultiPassHollywoodFlares.shader using Guid(e2baf3cae8edc4daf94c9adc2154be00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0f8a7b3ac63df6bdc41fc1cd6c13ab30') in 0.011708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Textures/VignetteMask.png
+  artifactKey: Guid(95ef4804fe0be4c999ddaa383536cde8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Textures/VignetteMask.png using Guid(95ef4804fe0be4c999ddaa383536cde8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a2226a356d17dffc94c8db3b0d9422aa') in 0.017870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Standard Assets/Editor/ImageEffects/CameraMotionBlurEditor.cs
+  artifactKey: Guid(80cbbe1c107bf5e43a96347d3dfc2658) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Standard Assets/Editor/ImageEffects/CameraMotionBlurEditor.cs using Guid(80cbbe1c107bf5e43a96347d3dfc2658) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f103286c1d5137aabef229c57fca820d') in 0.007800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/DepthOfField.cs
+  artifactKey: Guid(bd70d448b18cfbc46af26466f752332c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/DepthOfField.cs using Guid(bd70d448b18cfbc46af26466f752332c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '38b0057eb1f1598617b8630bfb912c82') in 0.007627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/MobileBlur.shader
+  artifactKey: Guid(f9d5fa183cd6b45eeb1491f74863cd91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/MobileBlur.shader using Guid(f9d5fa183cd6b45eeb1491f74863cd91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c366e2e482cd5165d4142d9853128627') in 0.015953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAA3Console.shader
+  artifactKey: Guid(c547503fff0e8482ea5793727057041c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAA3Console.shader using Guid(c547503fff0e8482ea5793727057041c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '853808b41bdb19589f75d73f1e2e6633') in 0.009068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/Tonemapper.shader
+  artifactKey: Guid(003377fc2620a44939dadde6fe3f8190) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/Tonemapper.shader using Guid(003377fc2620a44939dadde6fe3f8190) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ec40761d031110d065dbef41d005c65b') in 0.017789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Textures/Neutral3D16.png
+  artifactKey: Guid(a4b474cd484494a4aaa4bbf928219d09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Textures/Neutral3D16.png using Guid(a4b474cd484494a4aaa4bbf928219d09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7ab6863eb208f42ca2f7d4719572694a') in 0.018813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Textures/NoiseEffectScratch.png
+  artifactKey: Guid(6205c27cc031f4e66b8ea90d1bfaa158) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Textures/NoiseEffectScratch.png using Guid(6205c27cc031f4e66b8ea90d1bfaa158) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9013a0d93fd0ed683381f7cdb3120756') in 0.020962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/SeparableBlur.shader
+  artifactKey: Guid(e97c14fbb5ea04c3a902cc533d7fc5d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/SeparableBlur.shader using Guid(e97c14fbb5ea04c3a902cc533d7fc5d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1a6a52a2cb4f053d53cc2517f04328f6') in 0.009465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Textures/ContrastEnhanced3D16.png
+  artifactKey: Guid(ecd9a2c463dcb476891e43d7c9f16ffa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Textures/ContrastEnhanced3D16.png using Guid(ecd9a2c463dcb476891e43d7c9f16ffa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fd7f9ded5d9312d52d030c5b3b2a3ccb') in 0.017732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/Adaptation.shader
+  artifactKey: Guid(257bc83cbeb544540bd0e558aa9b1383) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/Adaptation.shader using Guid(257bc83cbeb544540bd0e558aa9b1383) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3120f104be01f8e2906201d80bdb7255') in 0.009811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/#NVJOB Boids/Simple Boids/Prefabs/Bird/Bird Pref B.prefab
+  artifactKey: Guid(2f5f5731eb36efb4ead612880acc102e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Simple Boids/Prefabs/Bird/Bird Pref B.prefab using Guid(2f5f5731eb36efb4ead612880acc102e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'efa5be53ea915d42278637f0cc51e1bf') in 0.013364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Dynamic Sky Lite/Mesh/Sky Dome.fbx
+  artifactKey: Guid(967f7fe4c727b7b488b8e7559139121c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Dynamic Sky Lite/Mesh/Sky Dome.fbx using Guid(967f7fe4c727b7b488b8e7559139121c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '368e7d488ed4c6a27ce999cd38b7d7f5') in 0.016219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs
+  artifactKey: Guid(18b91636de2ba3445913e4cf38528dc8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs using Guid(18b91636de2ba3445913e4cf38528dc8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b0380681f7fa16d46689cef42ca68484') in 0.007185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Textures/NoiseEffectGrain.png
+  artifactKey: Guid(ffa9c02760c2b4e8eb9814ec06c4b05b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Textures/NoiseEffectGrain.png using Guid(ffa9c02760c2b4e8eb9814ec06c4b05b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '14a244879a49a1858fda926f1f28045e') in 0.020175 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Water Shader SAF/Materials/Water tx.png
+  artifactKey: Guid(29b073a0522333d45bd8685816b2dbd6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Water Shader SAF/Materials/Water tx.png using Guid(29b073a0522333d45bd8685816b2dbd6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7b61d436ef481511d5d96c972a20950d') in 0.014917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs
+  artifactKey: Guid(a88a26a276b4e47619ce2c5adad33fab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs using Guid(a88a26a276b4e47619ce2c5adad33fab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '072dd7072e32bdfdd0bf8a6e7f9c3d2b') in 0.007705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionCurvesSimple.shader
+  artifactKey: Guid(438ddd58d82c84d9eb1fdc56111702e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionCurvesSimple.shader using Guid(438ddd58d82c84d9eb1fdc56111702e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '32edd01c2297355425e0322b98e516c3') in 0.010088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Standard Assets/Editor/ImageEffects/SunShaftsEditor.cs
+  artifactKey: Guid(54f6f6313f2aecc4d81035ec0031e313) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Standard Assets/Editor/ImageEffects/SunShaftsEditor.cs using Guid(54f6f6313f2aecc4d81035ec0031e313) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1d2c81611a18c29ca2fd68ea8f102163') in 0.007947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Dynamic Sky Lite/Materials/Horizen.mat
+  artifactKey: Guid(d7ef00c647aba4c4e9f2b2953d6b0167) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Dynamic Sky Lite/Materials/Horizen.mat using Guid(d7ef00c647aba4c4e9f2b2953d6b0167) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ecf044308702c69863e33ebc42ce8c85') in 0.013829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Textures/NoiseAndGrain.png
+  artifactKey: Guid(7a632f967e8ad42f5bd275898151ab6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Textures/NoiseAndGrain.png using Guid(7a632f967e8ad42f5bd275898151ab6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4331e391abdfdfb4c0725f8efb8c79d4') in 0.016957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/GrayscaleEffect.shader
+  artifactKey: Guid(daf9781cad112c75d0008dfa8d76c639) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/GrayscaleEffect.shader using Guid(daf9781cad112c75d0008dfa8d76c639) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a36fb158010821155b4c4c4bc52a797f') in 0.010174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/#NVJOB Boids/Simple Boids/Materials/Fish 1/Fish 1 N2.png
+  artifactKey: Guid(9696bcfc68f31434ba3f55ae24b0e13c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Simple Boids/Materials/Fish 1/Fish 1 N2.png using Guid(9696bcfc68f31434ba3f55ae24b0e13c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b9129bad77fce53240081f8751510c7a') in 0.014657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAA2.shader
+  artifactKey: Guid(cd5b323dcc592457790ff18b528f5e67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAA2.shader using Guid(cd5b323dcc592457790ff18b528f5e67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2ec2867c9fa7721ffa871b89337dfe95') in 0.010447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/MotionBlurClear.shader
+  artifactKey: Guid(7699c5fbfa27745a1abe111ab7bf9785) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/MotionBlurClear.shader using Guid(7699c5fbfa27745a1abe111ab7bf9785) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '49b16263575c4c9f65dcb4ff98a12e3e') in 0.010280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Other/Sand/Prefabs/Sand 0.prefab
+  artifactKey: Guid(caed3e9458583244596c5bd13b33c569) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Other/Sand/Prefabs/Sand 0.prefab using Guid(caed3e9458583244596c5bd13b33c569) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ea2e465d8e14cd4b799838abb67f59c3') in 0.016329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAAPreset2.shader
+  artifactKey: Guid(6f1418cffd12146f2a83be795f6fa5a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAAPreset2.shader using Guid(6f1418cffd12146f2a83be795f6fa5a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f37557879c023192c74c21446b017613') in 0.009944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrection3DLut.shader
+  artifactKey: Guid(b61f0d8d8244b4b28aa66b0c8cb46a8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrection3DLut.shader using Guid(b61f0d8d8244b4b28aa66b0c8cb46a8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '75213a79c55ec37e9e2797f89eac3bac') in 0.010510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BlendOneOne.shader
+  artifactKey: Guid(f7898d203e9b94c0dbe2bf9dd5cb32c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BlendOneOne.shader using Guid(f7898d203e9b94c0dbe2bf9dd5cb32c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '68b01c951f691e348459f81464341498') in 0.009698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Dynamic Sky Lite/Materials/tx 2.png
+  artifactKey: Guid(f2040196b62b5444b82ba8ea2bba5ec5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Dynamic Sky Lite/Materials/tx 2.png using Guid(f2040196b62b5444b82ba8ea2bba5ec5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e30651581f83fc255f3ddcc581f4b4b1') in 0.021810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Other/Arena/Materials/Flowers.mat
+  artifactKey: Guid(c8d024505e5f40b43a2cf6234b5e895c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Other/Arena/Materials/Flowers.mat using Guid(c8d024505e5f40b43a2cf6234b5e895c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f2201b2078255d26cf67315b192a1767') in 0.016491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/Luminance.shader
+  artifactKey: Guid(befbb4b9c320b4b18a08ef7afb93b6c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/Luminance.shader using Guid(befbb4b9c320b4b18a08ef7afb93b6c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '91d2f15e3d6c733f8c008671af560fe8') in 0.009743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Dynamic Sky Lite/Materials/Clouds.mat
+  artifactKey: Guid(03dbb767f9c636545aafa70141344c05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Dynamic Sky Lite/Materials/Clouds.mat using Guid(03dbb767f9c636545aafa70141344c05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8400a7d138b1ffcabe4d756d7f98a3fb') in 0.015405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/#NVJOB Boids/Simple Boids/Materials/Butterfly/Butterfly n.png
+  artifactKey: Guid(82371b44f2e803046ab6bc43a1efb5e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Simple Boids/Materials/Butterfly/Butterfly n.png using Guid(82371b44f2e803046ab6bc43a1efb5e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '81284638f32aee0d534bad7800f30e88') in 0.016877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Dynamic Sky Lite/Prefabs/Dynamic Sky.prefab
+  artifactKey: Guid(8a12c745772ba924e85f705bd8ba1b74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/NVJOB Assets/Dynamic Sky Lite/Prefabs/Dynamic Sky.prefab using Guid(8a12c745772ba924e85f705bd8ba1b74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2907478c568dc3d01b9fa3048fce93a9') in 0.013652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/#NVJOB Boids/Example Scenes/Other/Sounds/Wind.ogg
+  artifactKey: Guid(253fd57714aa92242878101d2fb92e86) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/#NVJOB Boids/Example Scenes/Other/Sounds/Wind.ogg using Guid(253fd57714aa92242878101d2fb92e86) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2d77e011f6608bc0e42f9362697e4125') in 0.054831 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 12 unused Assets / (29.0 KB). Loaded Objects now: 2354.
+Memory consumption went from 64.5 MB to 64.5 MB.
+Total: 2.754600 ms (FindLiveObjects: 0.182400 ms CreateObjectMapping: 0.067100 ms MarkObjects: 2.487800 ms  DeleteObjects: 0.016400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002981 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.778 seconds
+Domain Reload Profiling:
+	ReloadAssembly (779ms)
+		BeginReloadAssembly (112ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (587ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (161ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (282ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (30ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (49ms)
+				ProcessInitializeOnLoadAttributes (173ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1766 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 12 unused Assets / (31.8 KB). Loaded Objects now: 2357.
+Memory consumption went from 99.0 MB to 98.9 MB.
+Total: 2.647400 ms (FindLiveObjects: 0.206300 ms CreateObjectMapping: 0.093600 ms MarkObjects: 2.323500 ms  DeleteObjects: 0.023100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002702 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.770 seconds
+Domain Reload Profiling:
+	ReloadAssembly (771ms)
+		BeginReloadAssembly (103ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (587ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (159ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (284ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (173ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1766 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 12 unused Assets / (31.7 KB). Loaded Objects now: 2360.
+Memory consumption went from 99.0 MB to 98.9 MB.
+Total: 2.628000 ms (FindLiveObjects: 0.163100 ms CreateObjectMapping: 0.061700 ms MarkObjects: 2.380200 ms  DeleteObjects: 0.021600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003290 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.768 seconds
+Domain Reload Profiling:
+	ReloadAssembly (769ms)
+		BeginReloadAssembly (104ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (583ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (159ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (279ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (30ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (49ms)
+				ProcessInitializeOnLoadAttributes (171ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.22 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1766 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 12 unused Assets / (31.8 KB). Loaded Objects now: 2363.
+Memory consumption went from 99.0 MB to 98.9 MB.
+Total: 2.306200 ms (FindLiveObjects: 0.150400 ms CreateObjectMapping: 0.057600 ms MarkObjects: 2.067200 ms  DeleteObjects: 0.030100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003489 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.811 seconds
+Domain Reload Profiling:
+	ReloadAssembly (811ms)
+		BeginReloadAssembly (107ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (620ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (166ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (297ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (32ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (183ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1766 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 12 unused Assets / (31.8 KB). Loaded Objects now: 2366.
+Memory consumption went from 99.0 MB to 99.0 MB.
+Total: 2.369700 ms (FindLiveObjects: 0.148200 ms CreateObjectMapping: 0.054800 ms MarkObjects: 2.144200 ms  DeleteObjects: 0.021600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002869 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.805 seconds
+Domain Reload Profiling:
+	ReloadAssembly (805ms)
+		BeginReloadAssembly (109ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (612ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (168ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (292ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (50ms)
+				ProcessInitializeOnLoadAttributes (179ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1766 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 12 unused Assets / (31.8 KB). Loaded Objects now: 2369.
+Memory consumption went from 99.0 MB to 99.0 MB.
+Total: 2.098200 ms (FindLiveObjects: 0.141900 ms CreateObjectMapping: 0.051300 ms MarkObjects: 1.887200 ms  DeleteObjects: 0.017100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004058 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.814 seconds
+Domain Reload Profiling:
+	ReloadAssembly (815ms)
+		BeginReloadAssembly (106ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (626ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (164ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (307ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (32ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (186ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1766 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 12 unused Assets / (31.9 KB). Loaded Objects now: 2372.
+Memory consumption went from 99.0 MB to 99.0 MB.
+Total: 2.510400 ms (FindLiveObjects: 0.214300 ms CreateObjectMapping: 0.092100 ms MarkObjects: 2.178800 ms  DeleteObjects: 0.024200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004810 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.803 seconds
+Domain Reload Profiling:
+	ReloadAssembly (804ms)
+		BeginReloadAssembly (101ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (616ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (166ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (294ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (50ms)
+				ProcessInitializeOnLoadAttributes (181ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1766 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 12 unused Assets / (31.8 KB). Loaded Objects now: 2375.
+Memory consumption went from 99.0 MB to 99.0 MB.
+Total: 3.580200 ms (FindLiveObjects: 0.167300 ms CreateObjectMapping: 0.161700 ms MarkObjects: 3.223400 ms  DeleteObjects: 0.026600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003546 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.756 seconds
+Domain Reload Profiling:
+	ReloadAssembly (757ms)
+		BeginReloadAssembly (97ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (577ms)
+			LoadAssemblies (59ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (156ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (283ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (30ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (49ms)
+				ProcessInitializeOnLoadAttributes (173ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.24 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1766 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 12 unused Assets / (31.8 KB). Loaded Objects now: 2378.
+Memory consumption went from 99.0 MB to 99.0 MB.
+Total: 2.990000 ms (FindLiveObjects: 0.186100 ms CreateObjectMapping: 0.084200 ms MarkObjects: 2.692200 ms  DeleteObjects: 0.026300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002725 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.773 seconds
+Domain Reload Profiling:
+	ReloadAssembly (774ms)
+		BeginReloadAssembly (102ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (588ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (158ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (294ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (30ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (50ms)
+				ProcessInitializeOnLoadAttributes (183ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1766 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 12 unused Assets / (31.8 KB). Loaded Objects now: 2381.
+Memory consumption went from 99.0 MB to 99.0 MB.
+Total: 2.448700 ms (FindLiveObjects: 0.184500 ms CreateObjectMapping: 0.070100 ms MarkObjects: 2.171600 ms  DeleteObjects: 0.021700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002951 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.745 seconds
+Domain Reload Profiling:
+	ReloadAssembly (746ms)
+		BeginReloadAssembly (95ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (568ms)
+			LoadAssemblies (54ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (155ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (278ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (29ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (172ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1766 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 12 unused Assets / (31.8 KB). Loaded Objects now: 2384.
+Memory consumption went from 99.0 MB to 99.0 MB.
+Total: 2.798500 ms (FindLiveObjects: 0.199400 ms CreateObjectMapping: 0.121000 ms MarkObjects: 2.446200 ms  DeleteObjects: 0.025000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003390 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.754 seconds
+Domain Reload Profiling:
+	ReloadAssembly (754ms)
+		BeginReloadAssembly (99ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (575ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (156ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (279ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (50ms)
+				ProcessInitializeOnLoadAttributes (170ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.16 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1766 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 12 unused Assets / (31.7 KB). Loaded Objects now: 2387.
+Memory consumption went from 99.0 MB to 99.0 MB.
+Total: 2.295600 ms (FindLiveObjects: 0.159100 ms CreateObjectMapping: 0.057800 ms MarkObjects: 2.056000 ms  DeleteObjects: 0.021900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003608 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.752 seconds
+Domain Reload Profiling:
+	ReloadAssembly (752ms)
+		BeginReloadAssembly (100ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (571ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (156ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (281ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (30ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (49ms)
+				ProcessInitializeOnLoadAttributes (171ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.20 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1766 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 12 unused Assets / (31.8 KB). Loaded Objects now: 2390.
+Memory consumption went from 99.1 MB to 99.0 MB.
+Total: 2.285200 ms (FindLiveObjects: 0.168400 ms CreateObjectMapping: 0.066900 ms MarkObjects: 2.028700 ms  DeleteObjects: 0.020400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002853 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.759 seconds
+Domain Reload Profiling:
+	ReloadAssembly (760ms)
+		BeginReloadAssembly (98ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (576ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (156ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (286ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (52ms)
+				ProcessInitializeOnLoadAttributes (175ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1766 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 12 unused Assets / (31.8 KB). Loaded Objects now: 2393.
+Memory consumption went from 99.1 MB to 99.0 MB.
+Total: 2.550500 ms (FindLiveObjects: 0.172800 ms CreateObjectMapping: 0.071600 ms MarkObjects: 2.281300 ms  DeleteObjects: 0.023900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003429 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.887 seconds
+Domain Reload Profiling:
+	ReloadAssembly (887ms)
+		BeginReloadAssembly (143ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (645ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (180ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (305ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (33ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (53ms)
+				ProcessInitializeOnLoadAttributes (187ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1766 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 12 unused Assets / (31.8 KB). Loaded Objects now: 2396.
+Memory consumption went from 99.1 MB to 99.0 MB.
+Total: 3.086800 ms (FindLiveObjects: 0.174800 ms CreateObjectMapping: 0.066500 ms MarkObjects: 2.816400 ms  DeleteObjects: 0.028000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003415 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.832 seconds
+Domain Reload Profiling:
+	ReloadAssembly (833ms)
+		BeginReloadAssembly (112ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (630ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (169ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (307ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (32ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (53ms)
+				ProcessInitializeOnLoadAttributes (188ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.22 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1766 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 12 unused Assets / (31.8 KB). Loaded Objects now: 2399.
+Memory consumption went from 99.1 MB to 99.0 MB.
+Total: 2.559700 ms (FindLiveObjects: 0.184100 ms CreateObjectMapping: 0.087500 ms MarkObjects: 2.254200 ms  DeleteObjects: 0.032700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

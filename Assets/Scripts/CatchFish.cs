@@ -21,6 +21,9 @@ public class CatchFish : MonoBehaviour
 
     private Camera mainCamera;
 
+    float elapsedTime;
+    float desiredDuration = 150f;
+
     public bool moveCash = false;
     // Start is called before the first frame update
     void Start()
@@ -38,7 +41,6 @@ public class CatchFish : MonoBehaviour
     void Update()
     {
         DetectandCatch();
-
         if(moveCash == true)
         {
             MoveCashObject();
@@ -50,9 +52,10 @@ public class CatchFish : MonoBehaviour
         Vector3 targetPos = GetCashUIIconPosition(cash.transform.position);
 
         cashes = GameObject.FindGameObjectsWithTag("Cash");
+
         foreach (GameObject cash in cashes)
         {
-            cash.transform.position = Vector3.Lerp(cash.transform.position, targetPos, Time.deltaTime * 5f);
+            cash.transform.position = Vector3.MoveTowards(cash.transform.position, targetPos, Time.deltaTime);
 
             if (Vector3.Distance(cash.transform.position, targetPos) < 2f)
             {
