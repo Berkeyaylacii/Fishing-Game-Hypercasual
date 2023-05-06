@@ -24,6 +24,8 @@ public class CatchFish : MonoBehaviour
     float elapsedTime;
     float desiredDuration = 150f;
 
+    float strength;
+
     public bool moveCash = false;
     // Start is called before the first frame update
     void Start()
@@ -81,7 +83,8 @@ public class CatchFish : MonoBehaviour
                 line.SetPosition(1, closest.transform.position);
 
                 float distancee = Vector3.Distance(closest.transform.position, bringPosition.position);
-                closest.transform.position = Vector3.Lerp(closest.transform.position, bringPosition.position, Time.deltaTime * 5f);
+                strength = Time.deltaTime * 10f;
+                closest.transform.position = Vector3.Lerp(closest.transform.position, bringPosition.position, strength);
 
                 if(distance < 1f)
                 {      
