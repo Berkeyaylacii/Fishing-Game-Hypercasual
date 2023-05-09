@@ -388,11 +388,13 @@
 "Assets/#NVJOB Boids/Simple Boids/NVBoids.cs"
 "Assets/FishMovement.cs"
 "Assets/Scripts/BoatController.cs"
+"Assets/Scripts/BuyMarketController.cs"
 "Assets/Scripts/CameraController.cs"
 "Assets/Scripts/CatchFish.cs"
-"Assets/Scripts/DrawPath.cs"
 "Assets/Scripts/FishSpawner.cs"
+"Assets/Scripts/FuelMarketController.cs"
 "Assets/Scripts/RandomMovement.cs"
+"Assets/Scripts/SellMarketController.cs"
 "Assets/Scripts/TrailCollision.cs"
 -langversion:9.0
 
