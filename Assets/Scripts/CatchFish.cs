@@ -4,19 +4,23 @@ using UnityEngine;
 using TMPro;
 
 public class CatchFish : MonoBehaviour
-{   
-
-    TextMeshProUGUI score_txt;
+{
+    public FishSpawner FishSpawner;
 
     GameObject[] fishes;
     GameObject[] cashes;
     GameObject closest;
 
-    private LineRenderer line;
+    public LineRenderer line;
     public Transform bringPosition;
     public GameObject fish;
-
     public GameObject cash;
+
+    TextMeshProUGUI score_txt;
+    public TextMeshPro catchedFishText;
+    public TextMeshProUGUI totalMoneyText;
+
+    public Transform spawnPoint;
     public Transform cashUI;
 
     private Camera mainCamera;
@@ -24,29 +28,28 @@ public class CatchFish : MonoBehaviour
     float elapsedTime;
     float desiredDuration = 150f;
 
-    float strength;
+    public float strength;
+    public float totalMoney;
+    public float catchedFishCount;
 
     public bool moveCash = false;
     // Start is called before the first frame update
     void Start()
-    {
-        line = gameObject.GetComponent < LineRenderer>();
+    {       
         mainCamera = Camera.main;
 
-
         line.enabled = false;
-        score_txt = GameObject.FindGameObjectWithTag("Score").GetComponent<TextMeshProUGUI>();
-        
+        score_txt = GameObject.FindGameObjectWithTag("Score").GetComponent<TextMeshProUGUI>();       
     }
 
     // Update is called once per frame
     void Update()
     {
         DetectandCatch();
-        if(moveCash == true)
+        /*if(moveCash == true)
         {
             MoveCashObject();
-        }
+        }*/
     }
     
     void MoveCashObject()
@@ -68,12 +71,12 @@ public class CatchFish : MonoBehaviour
     public void DetectandCatch()
     {        
         fishes = GameObject.FindGameObjectsWithTag("Fish");
-        Vector3 position = transform.position;
+        Vector3 position = transform.position;  //spawn olarak deðiþti
         foreach (GameObject fish in fishes)
         {
             Vector3 diff = fish.transform.position - position;
             float distance = diff.magnitude;
-            if (distance < 3f)
+            if (distance < 3f && catchedFishCount < 5)
             {
                 line.enabled = true;
                 closest = fish;
@@ -87,23 +90,39 @@ public class CatchFish : MonoBehaviour
                 closest.transform.position = Vector3.Lerp(closest.transform.position, bringPosition.position, strength);
 
                 if(distance < 1f)
-                {      
-                    float skor = float.Parse(score_txt.text);
-                    skor = skor + 1;
-                    score_txt.text = skor.ToString();
+                {
+                    //float skor = float.Parse(score_txt.text);
+                    //skor = skor + 1;
+                    // score_txt.text = skor.ToString();
+
+                    catchedFishCount += 1;
+                    catchedFishText.text = catchedFishCount.ToString();
 
                     line.enabled = false;
+                    FishSpawner.fishCounter1 -= 1;
                     Object.Destroy(closest);
 
                     //Generate cash and move to the icon position
-                    Instantiate(cash, position, Quaternion.identity);
+                    //Instantiate(cash, position, Quaternion.identity);
 
-                    moveCash = true;
+                    //moveCash = true;
                 }
             }
         }
     }
 
+    public void IncreaseScore()
+    {
+        totalMoney += catchedFishCount;
+
+        totalMoneyText.text = totalMoney.ToString();
+    }
+
+    public void resetCatchedFishCount()
+    {
+        catchedFishCount = 0;
+        catchedFishText.text = catchedFishCount.ToString();
+    }
 
     public Vector3 GetCashUIIconPosition(Vector3 target)
     {

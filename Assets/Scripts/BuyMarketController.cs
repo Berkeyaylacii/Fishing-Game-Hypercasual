@@ -4,9 +4,12 @@ using UnityEngine;
 
 public class BuyMarketController : MonoBehaviour
 {
-    public GameObject buyMarket;
+    public BuyMarketManager BuyMarketManager;
 
+    public GameObject buyMarket;
     public GameObject boat;
+
+    public bool isBuyMarketOpen = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,9 +21,22 @@ public class BuyMarketController : MonoBehaviour
     {
         float distance = Vector3.Distance(boat.transform.position, buyMarket.transform.position);
 
-        if (distance < 3f)
+        if(distance > 3f)
         {
-            Debug.Log("Buy market");
+            isBuyMarketOpen = false;
+            boat.GetComponent<BoatController>().enabled = true;
         }
+
+        if (distance < 3f)
+        {   
+            if(isBuyMarketOpen == false)
+            {
+                isBuyMarketOpen = true;
+                BuyMarketManager.openBuyPanel();
+                Debug.Log("Buy market");        
+            }
+        }
+
+        
     }
 }

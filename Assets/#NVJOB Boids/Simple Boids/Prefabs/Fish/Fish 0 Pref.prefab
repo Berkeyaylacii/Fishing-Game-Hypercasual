@@ -17,8 +17,8 @@ GameObject:
   m_Name: Fish 0 Pref
   m_TagString: Fish
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &6890879666099194447
 Transform:
@@ -98,7 +98,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   agent: {fileID: 753636546}
-  range: 5
+  range: 1
   centrePoint: {fileID: 6890879666099194447}
 --- !u!195 &753636546
 NavMeshAgent:
