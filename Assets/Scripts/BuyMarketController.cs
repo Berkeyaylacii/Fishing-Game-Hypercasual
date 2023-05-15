@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BuyMarketController : MonoBehaviour
 {
-    public BuyMarketManager BuyMarketManager;
+    public BuyMarketPanelManager BuyMarketPanelManager;
 
     public GameObject buyMarket;
     public GameObject boat;
@@ -32,11 +32,9 @@ public class BuyMarketController : MonoBehaviour
             if(isBuyMarketOpen == false)
             {
                 isBuyMarketOpen = true;
-                BuyMarketManager.openBuyPanel();
+                BuyMarketPanelManager.openBuyPanel();
                 Debug.Log("Buy market");        
             }
-        }
-
-        
+        }       
     }
 }

@@ -381,7 +381,7 @@
 "Assets/FishMovement.cs"
 "Assets/Scripts/BoatController.cs"
 "Assets/Scripts/BuyMarketController.cs"
-"Assets/Scripts/BuyMarketManager.cs"
+"Assets/Scripts/BuyMarketPanelManager.cs"
 "Assets/Scripts/CameraController.cs"
 "Assets/Scripts/CatchFish.cs"
 "Assets/Scripts/FishSpawner.cs"

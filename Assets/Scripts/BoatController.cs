@@ -12,7 +12,7 @@ public class BoatController : MonoBehaviour
 
     [SerializeField] private float fuel = 100f;
     [SerializeField] private Slider fuelSlider;
-    [SerializeField] private float fuelBurnRate = 20f;
+    public float fuelBurnRate = 20f;
 
     private float currentFuel;
     private bool isMoving = false;

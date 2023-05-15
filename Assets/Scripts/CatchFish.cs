@@ -28,9 +28,12 @@ public class CatchFish : MonoBehaviour
     float elapsedTime;
     float desiredDuration = 150f;
 
-    public float strength;
+    public float strength = 10f;
     public float totalMoney;
-    public float catchedFishCount;
+
+    public float catchedFishCount = 0;
+    public float catchedFish1Count = 0;
+    public float catchedFish2Count =0 ;
 
     public bool moveCash = false;
     // Start is called before the first frame update
@@ -68,10 +71,10 @@ public class CatchFish : MonoBehaviour
             }
         }
     }
-    public void DetectandCatch()
+    public void DetectandCatch()         //Catch the fish by moving it to the boat position with line renderer
     {        
         fishes = GameObject.FindGameObjectsWithTag("Fish");
-        Vector3 position = transform.position;  //spawn olarak deðiþti
+        Vector3 position = transform.position;  
         foreach (GameObject fish in fishes)
         {
             Vector3 diff = fish.transform.position - position;
@@ -86,25 +89,35 @@ public class CatchFish : MonoBehaviour
                 line.SetPosition(1, closest.transform.position);
 
                 float distancee = Vector3.Distance(closest.transform.position, bringPosition.position);
-                strength = Time.deltaTime * 10f;
-                closest.transform.position = Vector3.Lerp(closest.transform.position, bringPosition.position, strength);
+                float catchStrength = Time.deltaTime * strength;
+                closest.transform.position = Vector3.Lerp(closest.transform.position, bringPosition.position, catchStrength);
 
                 if(distance < 1f)
                 {
                     //float skor = float.Parse(score_txt.text);
                     //skor = skor + 1;
                     // score_txt.text = skor.ToString();
-
+                    
                     catchedFishCount += 1;
                     catchedFishText.text = catchedFishCount.ToString();
 
                     line.enabled = false;
-                    FishSpawner.fishCounter1 -= 1;
+
+                    if(closest.name == "Fish1(Clone)")
+                    {
+                        FishSpawner.fishCounter1 -= 1; //decrease spawnedFish1 count to spawn fish again.
+                        catchedFish1Count += 1;
+                    }
+                    if (closest.name == "Fish2(Clone)")
+                    {
+                        FishSpawner.fishCounter2 -= 1;  //decrease spawnedFish2 count to spawn fish again.
+                        catchedFish2Count += 1; 
+                    }
+
                     Object.Destroy(closest);
 
                     //Generate cash and move to the icon position
                     //Instantiate(cash, position, Quaternion.identity);
-
                     //moveCash = true;
                 }
             }
@@ -112,8 +125,8 @@ public class CatchFish : MonoBehaviour
     }
 
     public void IncreaseScore()
-    {
-        totalMoney += catchedFishCount;
+    {          
+        totalMoney += catchedFish1Count*1 + catchedFish2Count * 2;
 
         totalMoneyText.text = totalMoney.ToString();
     }
@@ -121,6 +134,8 @@ public class CatchFish : MonoBehaviour
     public void resetCatchedFishCount()
     {
         catchedFishCount = 0;
+        catchedFish1Count = 0;
+        catchedFish2Count = 0;
         catchedFishText.text = catchedFishCount.ToString();
     }
 

@@ -319,7 +319,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1a6c61bf98f5f14a8bb71901fd60974, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BuyMarketManager: {fileID: 4820730}
+  BuyMarketPanelManager: {fileID: 4820730}
   buyMarket: {fileID: 2103109009}
   boat: {fileID: 96614899}
   isBuyMarketOpen: 0
@@ -489,9 +489,11 @@ MonoBehaviour:
   totalMoneyText: {fileID: 1018416066}
   spawnPoint: {fileID: 1827571692}
   cashUI: {fileID: 1378380442}
-  strength: 0
+  strength: 10
   totalMoney: 0
   catchedFishCount: 0
+  catchedFish1Count: 0
+  catchedFish2Count: 0
   moveCash: 0
 --- !u!120 &96614909
 LineRenderer:
@@ -9238,12 +9240,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6627208164c7cd147aa656a3ed1d4e64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Fish: {fileID: 5922063395959708379, guid: 310c71d298a14e84eb27f1360f6b7eef, type: 3}
+  boat: {fileID: 96614899}
+  Fish1: {fileID: 5922063395959708379, guid: 310c71d298a14e84eb27f1360f6b7eef, type: 3}
+  Fish2: {fileID: 4431624762938097822, guid: 4e732310767b4e0448b1f2efb933909f, type: 3}
   stopSpawning1: 0
   stopSpawning2: 0
   spawnTime: 1
   spawnDelay: 1
-  fishes: []
   fishCounter1: 0
   fishCounter2: 0
 --- !u!4 &1101987994

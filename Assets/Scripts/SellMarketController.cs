@@ -27,10 +27,11 @@ public class SellMarketController : MonoBehaviour
             isSellMarketOpen = false;        
         }
 
-        if (distance < 3f && isSellMarketOpen == false && CatchFish.catchedFishCount > 0)
+        if (distance < 3f && isSellMarketOpen == false && CatchFish.catchedFishCount > 0) //Increase the score
         {
             isSellMarketOpen = true;
             Debug.Log("All Fish Sold.");
+
             CatchFish.IncreaseScore();  
             CatchFish.resetCatchedFishCount();
         }
