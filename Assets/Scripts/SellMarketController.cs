@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class SellMarketController : MonoBehaviour
@@ -7,8 +8,9 @@ public class SellMarketController : MonoBehaviour
     public CatchFish CatchFish;
 
     public GameObject sellMarket;
-
     public GameObject boat;
+
+    public TextMeshPro boatCapacity;
 
     public bool isSellMarketOpen = false;
     // Start is called before the first frame update
@@ -37,4 +39,8 @@ public class SellMarketController : MonoBehaviour
         }
     }
 
+    void IncreaseBoatCapacity()
+    {
+
+    }
 }

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEditor.Search;
 
 public class CatchFish : MonoBehaviour
 {
@@ -18,6 +19,7 @@ public class CatchFish : MonoBehaviour
 
     TextMeshProUGUI score_txt;
     public TextMeshPro catchedFishText;
+    public TextMeshPro boatCapacityText;
     public TextMeshProUGUI totalMoneyText;
 
     public Transform spawnPoint;
@@ -31,10 +33,12 @@ public class CatchFish : MonoBehaviour
     public float strength = 10f;
     public float totalMoney;
 
+    public float boatCapacity;
     public float catchedFishCount = 0;
     public float catchedFish1Count = 0;
     public float catchedFish2Count =0 ;
 
+    public bool isCatching = false;
     public bool moveCash = false;
     // Start is called before the first frame update
     void Start()
@@ -79,7 +83,8 @@ public class CatchFish : MonoBehaviour
         {
             Vector3 diff = fish.transform.position - position;
             float distance = diff.magnitude;
-            if (distance < 3f && catchedFishCount < 5)
+            //boatCapacity = float.Parse(boatCapacityText.text.ToString());
+            if (distance < 3f && catchedFishCount < float.Parse(boatCapacityText.text.ToString()) )  //Check if fish is close and enough boat capacity
             {
                 line.enabled = true;
                 closest = fish;
