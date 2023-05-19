@@ -6,6 +6,7 @@ using UnityEngine;
 public class BuyMarketController : MonoBehaviour
 {
     public BuyMarketPanelManager BuyMarketPanelManager;
+    public BoatController BoatController;
 
     public GameObject buyMarket;
     public GameObject boat;
@@ -13,6 +14,8 @@ public class BuyMarketController : MonoBehaviour
     public TextMeshProUGUI totalMoneyText;
     public TextMeshPro boatCapacityText;
     public TextMeshProUGUI increaseCapPriceText;
+
+    public TextMeshProUGUI increaseSpeedPriceText;
 
     public bool isBuyMarketOpen = false;
     // Start is called before the first frame update
@@ -59,6 +62,27 @@ public class BuyMarketController : MonoBehaviour
             boatCapacityText.text = boatCap.ToString();
             totalMoneyText.text = totalMoney.ToString();
             increaseCapPriceText.text = increaseBoatCapPrice.ToString();       
+        }
+    }
+
+
+    public void IncreaseBoatSpeed()
+    {
+        float totalMoney = float.Parse(totalMoneyText.text);
+        float currentSpeed = BoatController.acceleratespeed;
+        float increaseSpeedPrice = float.Parse(increaseSpeedPriceText.text.ToString());
+
+        if(totalMoney >= increaseSpeedPrice)
+        {
+            float newSpeed = currentSpeed * 1.2f;
+
+            totalMoney -= increaseSpeedPrice;
+
+            increaseSpeedPrice += 15;
+
+            BoatController.acceleratespeed = newSpeed;
+            totalMoneyText.text = totalMoney.ToString();
+            increaseSpeedPriceText.text = increaseSpeedPrice.ToString();
         }
     }
 }

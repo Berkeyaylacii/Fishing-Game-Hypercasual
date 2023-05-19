@@ -92,7 +92,9 @@
     <Compile Include="Assets\#NVJOB Boids\Example Scenes\Other\Scripts\Shark.cs" />
     <Compile Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Scripts\BloomOptimized.cs" />
     <Compile Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Scripts\DepthOfField.cs" />
+    <Compile Include="Assets\Scripts\FishSpawner2.cs" />
     <Compile Include="Assets\#NVJOB Boids\Simple Boids\NVBoids.cs" />
+    <Compile Include="Assets\Scripts\GateController.cs" />
     <Compile Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Scripts\Antialiasing.cs" />
     <Compile Include="Assets\Scripts\TrailCollision.cs" />
     <Compile Include="Assets\#NVJOB Boids\Example Scenes\Standard Assets\Effects\ImageEffects\Scripts\NoiseAndScratches.cs" />

@@ -12,6 +12,7 @@ public class FishSpawner : MonoBehaviour
 
     public bool stopSpawning1 = false;
     public bool stopSpawning2 = false;
+
     public float spawnTime;
     public float spawnDelay;
 

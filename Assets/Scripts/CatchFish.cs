@@ -130,10 +130,8 @@ public class CatchFish : MonoBehaviour
     }
 
     public void IncreaseScore()
-    {          
-        totalMoney += catchedFish1Count*1 + catchedFish2Count * 2;
-
-        totalMoneyText.text = totalMoney.ToString();
+    {
+        totalMoneyText.text = (float.Parse(totalMoneyText.text) + catchedFish1Count*1 + catchedFish2Count * 2).ToString();
     }
 
     public void resetCatchedFishCount()
