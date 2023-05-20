@@ -6,7 +6,7 @@ using UnityEngine;
 public class BuyMarketController : MonoBehaviour
 {
     public BuyMarketPanelManager BuyMarketPanelManager;
-    public BoatController BoatController;
+    public BoatMovementTouch BoatMovementTouch;
 
     public GameObject buyMarket;
     public GameObject boat;
@@ -32,7 +32,7 @@ public class BuyMarketController : MonoBehaviour
         if(distance > 3f)
         {
             isBuyMarketOpen = false;
-            boat.GetComponent<BoatController>().enabled = true;
+            boat.GetComponent<BoatMovementTouch>().enabled = true;
         }
 
         if (distance < 3f)
@@ -69,7 +69,7 @@ public class BuyMarketController : MonoBehaviour
     public void IncreaseBoatSpeed()
     {
         float totalMoney = float.Parse(totalMoneyText.text);
-        float currentSpeed = BoatController.acceleratespeed;
+        float currentSpeed = BoatMovementTouch.movementSpeed;
         float increaseSpeedPrice = float.Parse(increaseSpeedPriceText.text.ToString());
 
         if(totalMoney >= increaseSpeedPrice)
@@ -80,7 +80,7 @@ public class BuyMarketController : MonoBehaviour
 
             increaseSpeedPrice += 15;
 
-            BoatController.acceleratespeed = newSpeed;
+            BoatMovementTouch.movementSpeed = newSpeed;
             totalMoneyText.text = totalMoney.ToString();
             increaseSpeedPriceText.text = increaseSpeedPrice.ToString();
         }

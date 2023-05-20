@@ -84,18 +84,18 @@ public class CatchFish : MonoBehaviour
             Vector3 diff = fish.transform.position - position;
             float distance = diff.magnitude;
             //boatCapacity = float.Parse(boatCapacityText.text.ToString());
-            if (distance < 3f && catchedFishCount < float.Parse(boatCapacityText.text.ToString()) )  //Check if fish is close and enough boat capacity
+            if (distance < 3f && catchedFishCount < float.Parse(boatCapacityText.text.ToString()))  //Check if fish is close and enough boat capacity
             {
-                line.enabled = true;
+                line.enabled = true;  
                 closest = fish;
 
                 line.positionCount = 2;
-                line.SetPosition(0, gameObject.transform.position);
+                line.SetPosition(0, bringPosition.transform.position);
                 line.SetPosition(1, closest.transform.position);
 
-                float distancee = Vector3.Distance(closest.transform.position, bringPosition.position);
+                float distancee = Vector3.Distance(closest.transform.position, bringPosition.position);  //burasýýý
                 float catchStrength = Time.deltaTime * strength;
-                closest.transform.position = Vector3.Lerp(closest.transform.position, bringPosition.position, catchStrength);
+                closest.transform.position = Vector3.Lerp(closest.transform.position, bringPosition.position, catchStrength);   //burasýýýý
 
                 if(distance < 1f)
                 {
