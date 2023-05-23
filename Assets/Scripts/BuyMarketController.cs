@@ -32,7 +32,6 @@ public class BuyMarketController : MonoBehaviour
         if(distance > 3f)
         {
             isBuyMarketOpen = false;
-            boat.GetComponent<BoatMovementTouch>().enabled = true;
         }
 
         if (distance < 3f)
@@ -41,7 +40,6 @@ public class BuyMarketController : MonoBehaviour
             {
                 isBuyMarketOpen = true;
                 BuyMarketPanelManager.openBuyPanel();
-                Debug.Log("Buy market");        
             }
         }       
     }

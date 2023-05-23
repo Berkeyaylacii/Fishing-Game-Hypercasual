@@ -397,6 +397,7 @@
 "Assets/Scripts/CatchFish.cs"
 "Assets/Scripts/FishSpawner.cs"
 "Assets/Scripts/FishSpawner2.cs"
+"Assets/Scripts/FishSpawner3.cs"
 "Assets/Scripts/FuelMarketController.cs"
 "Assets/Scripts/GateController.cs"
 "Assets/Scripts/RandomMovement.cs"

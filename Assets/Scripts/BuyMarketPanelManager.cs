@@ -23,13 +23,13 @@ public class BuyMarketPanelManager : MonoBehaviour
 
     public void openBuyPanel()
     {
-        boat.GetComponent<BoatController>().enabled = false;
+        boat.GetComponent<BoatMovementTouch>().enabled = false;
         buyPanel.SetActive(true);
     }
 
     public void closeBuyPanel()
     {
-        boat.GetComponent<BoatController>().enabled = true;
+        boat.GetComponent<BoatMovementTouch>().enabled = true;
         buyPanel.SetActive(false);
     }
 }

@@ -9921,6 +9921,7 @@ GameObject:
   - component: {fileID: 1101987994}
   - component: {fileID: 1101987993}
   - component: {fileID: 1101987995}
+  - component: {fileID: 1101987996}
   m_Layer: 0
   m_Name: FishSpawner
   m_TagString: Untagged
@@ -9957,7 +9958,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1101987992}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -14.41, y: 0, z: 53.23}
+  m_LocalPosition: {x: -42.7, y: 0, z: -31.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9985,6 +9986,27 @@ MonoBehaviour:
   spawnDelay: 1
   fishCounter3: 0
   fishCounter4: 0
+--- !u!114 &1101987996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1101987992}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ef3e9b97a3595840b21a04f67c75a2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boat: {fileID: 96614899}
+  Fish5: {fileID: 0}
+  Fish6: {fileID: 0}
+  stopSpawning5: 0
+  stopSpawning6: 0
+  spawnTime: 0
+  spawnDelay: 0
+  fishCounter5: 0
+  fishCounter6: 0
 --- !u!1 &1107174290
 GameObject:
   m_ObjectHideFlags: 0
