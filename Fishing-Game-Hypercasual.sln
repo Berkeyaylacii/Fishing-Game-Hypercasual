@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.AI.Navigation", "Unit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.InputSystem.TestFramework", "Unity.InputSystem.TestFramework.csproj", "{93434539-62CA-FA34-075D-083B8807FF88}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass", "Assembly-CSharp-firstpass.csproj", "{19E15626-09AD-59D7-8EED-5BBDDDD3A772}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEditor.TestRunner", "UnityEditor.TestRunner.csproj", "{394345A3-A7D7-71D7-099F-B92FD108E8AA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.PlasticSCM.Editor", "Unity.PlasticSCM.Editor.csproj", "{D41DC604-CA56-0994-2985-07CB9C2346B6}"
@@ -59,6 +61,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.AI.Navigation", "Unit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.InputSystem.TestFramework", "Unity.InputSystem.TestFramework.Player.csproj", "{47E8B933-C10F-58D5-6056-12D23B39EFBE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass", "Assembly-CSharp-firstpass.Player.csproj", "{74691AEE-84F4-1873-72D1-23722034249C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -97,6 +101,10 @@ Global
 		{93434539-62CA-FA34-075D-083B8807FF88}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93434539-62CA-FA34-075D-083B8807FF88}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93434539-62CA-FA34-075D-083B8807FF88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19E15626-09AD-59D7-8EED-5BBDDDD3A772}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19E15626-09AD-59D7-8EED-5BBDDDD3A772}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19E15626-09AD-59D7-8EED-5BBDDDD3A772}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19E15626-09AD-59D7-8EED-5BBDDDD3A772}.Release|Any CPU.Build.0 = Release|Any CPU
 		{394345A3-A7D7-71D7-099F-B92FD108E8AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{394345A3-A7D7-71D7-099F-B92FD108E8AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{394345A3-A7D7-71D7-099F-B92FD108E8AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -181,6 +189,10 @@ Global
 		{47E8B933-C10F-58D5-6056-12D23B39EFBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47E8B933-C10F-58D5-6056-12D23B39EFBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47E8B933-C10F-58D5-6056-12D23B39EFBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74691AEE-84F4-1873-72D1-23722034249C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74691AEE-84F4-1873-72D1-23722034249C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74691AEE-84F4-1873-72D1-23722034249C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74691AEE-84F4-1873-72D1-23722034249C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

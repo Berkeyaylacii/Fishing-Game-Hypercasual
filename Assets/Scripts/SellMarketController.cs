@@ -6,6 +6,7 @@ using UnityEngine;
 public class SellMarketController : MonoBehaviour
 {
     public CatchFish CatchFish;
+    public CollectCashAnimation CollectCashAnimation;
 
     public GameObject sellMarket;
     public GameObject boat;
@@ -32,6 +33,7 @@ public class SellMarketController : MonoBehaviour
         if (distance < 3f && isSellMarketOpen == false && CatchFish.catchedFishCount > 0) //Increase the score
         {
             isSellMarketOpen = true;
+
             Debug.Log("All Fish Sold.");
 
             CatchFish.IncreaseScore();  
