@@ -11,14 +11,17 @@ public class CollectCashAnimation : MonoBehaviour
 
     [SerializeField] private Vector3[] InitialPos;
     [SerializeField] private Quaternion[] InitialRotation;
-    [SerializeField] private int CashNumber;
+    [SerializeField] public int CashNumber;
 
+    public GameObject cashPrefab;
+    public bool completed = false;
     void Start()
     {
+        CashNumber = PileOfCashParent.transform.childCount;
         InitialPos = new Vector3[CashNumber];
         InitialRotation = new Quaternion[CashNumber];
 
-        for(int i=0; i<PileOfCashParent.transform.childCount; i++)
+        for(int i=0; i< CashNumber; i++) //PileOfCashParent.transform.childCount
         {
             InitialPos[i] = PileOfCashParent.transform.GetChild(i).position;
             InitialRotation[i] = PileOfCashParent.transform.GetChild(i).rotation;
@@ -42,7 +45,7 @@ public class CollectCashAnimation : MonoBehaviour
 
         PileOfCashParent.SetActive(true);
 
-        for (int i = 0; i < PileOfCashParent.transform.childCount; i++)
+        for (int i = 0; i < CashNumber; i++)  //PileOfCashParent.transform.childCount
         {
             PileOfCashParent.transform.GetChild(i).DOScale(1f, 0.3f).SetDelay(delay).SetEase(Ease.OutBack);
 
@@ -59,4 +62,16 @@ public class CollectCashAnimation : MonoBehaviour
     {
         
     }
+
+    /*public void SpawnCashObjectAtCanvas()
+    {   
+        for(int i =0; i < 2; i++)
+        {
+            GameObject cashObj = GameObject.Instantiate(cashPrefab, GameObject.FindGameObjectWithTag("CashGroup").transform.position, Quaternion.identity, GameObject.FindGameObjectWithTag("CashGroup").transform);
+        }
+        CashNumber = PileOfCashParent.transform.childCount;
+        InitialPos = new Vector3[CashNumber];
+        InitialRotation = new Quaternion[CashNumber];
+    }*/
+
 }
