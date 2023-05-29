@@ -7,6 +7,9 @@ using UnityEditor.Search;
 public class CatchFish : MonoBehaviour
 {
     public FishSpawner FishSpawner;
+    public FishSpawner2 FishSpawner2;
+
+    public GateController GateController;
 
     GameObject[] fishes;
     GameObject[] cashes;
@@ -37,6 +40,8 @@ public class CatchFish : MonoBehaviour
     public float catchedFishCount = 0;
     public float catchedFish1Count = 0;
     public float catchedFish2Count =0 ;
+    public float catchedFish3Count = 0;
+    public float catchedFish4Count = 0;
 
     public bool isCatching = false;
     public bool moveCash = false;
@@ -46,13 +51,19 @@ public class CatchFish : MonoBehaviour
         mainCamera = Camera.main;
 
         line.enabled = false;
-        score_txt = GameObject.FindGameObjectWithTag("Score").GetComponent<TextMeshProUGUI>();       
+        score_txt = GameObject.FindGameObjectWithTag("Score").GetComponent<TextMeshProUGUI>();
+      
     }
 
     // Update is called once per frame
     void Update()
     {
         DetectandCatch();
+
+        if (GateController.gate1isOpen == true)
+        {
+            FishSpawner2 = GameObject.FindGameObjectWithTag("FishSpawner").GetComponent<FishSpawner2>();
+        }
         /*if(moveCash == true)
         {
             MoveCashObject();
@@ -108,15 +119,25 @@ public class CatchFish : MonoBehaviour
 
                     line.enabled = false;
 
-                    if(closest.name == "Fish1(Clone)")
+                    if(closest.name == "LiveSharkSucker(Clone)")
                     {
                         FishSpawner.fishCounter1 -= 1; //decrease spawnedFish1 count to spawn fish again.
                         catchedFish1Count += 1;
                     }
-                    if (closest.name == "Fish2(Clone)")
+                    if (closest.name == "Catfish(Clone)")
                     {
                         FishSpawner.fishCounter2 -= 1;  //decrease spawnedFish2 count to spawn fish again.
                         catchedFish2Count += 1; 
+                    }
+                    if (closest.name == "Dolphinfish(Clone)")
+                    {
+                        FishSpawner2.fishCounter3 -= 1;  //decrease spawnedFish2 count to spawn fish again.
+                        catchedFish3Count += 1;
+                    }
+                    if (closest.name == "LargeToothFlounders(Clone)")
+                    {
+                        FishSpawner2.fishCounter4 -= 1;  //decrease spawnedFish2 count to spawn fish again.
+                        catchedFish4Count += 1;
                     }
 
                     Object.Destroy(closest);
@@ -131,7 +152,7 @@ public class CatchFish : MonoBehaviour
 
     public void IncreaseScore()
     {
-        totalMoneyText.text = (float.Parse(totalMoneyText.text) + catchedFish1Count*1 + catchedFish2Count * 2).ToString();
+        totalMoneyText.text = (float.Parse(totalMoneyText.text) + catchedFish1Count*1 + catchedFish2Count* 2 + catchedFish3Count* 3 + catchedFish4Count* 4).ToString();
     }
 
     public void resetCatchedFishCount()
@@ -139,6 +160,8 @@ public class CatchFish : MonoBehaviour
         catchedFishCount = 0;
         catchedFish1Count = 0;
         catchedFish2Count = 0;
+        catchedFish3Count = 0;
+        catchedFish4Count = 0;
         catchedFishText.text = catchedFishCount.ToString();
     }
 

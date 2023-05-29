@@ -43,10 +43,11 @@ public class CollectCashAnimation : MonoBehaviour
 
         var delay = 0f;
 
-        PileOfCashParent.SetActive(true);
+        //PileOfCashParent.SetActive(true);
 
         for (int i = 0; i < CashNumber; i++)  //PileOfCashParent.transform.childCount
         {
+            PileOfCashParent.transform.GetChild(i).gameObject.SetActive(true);
             PileOfCashParent.transform.GetChild(i).DOScale(1f, 0.3f).SetDelay(delay).SetEase(Ease.OutBack);
 
             PileOfCashParent.transform.GetChild(i).GetComponent<RectTransform>().DOAnchorPos(new Vector2(-261f, 760f), 1f).SetDelay(delay + 0.5f)

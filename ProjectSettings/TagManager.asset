@@ -13,6 +13,8 @@ TagManager:
   - Canvas
   - CashGroup
   - CashPrefab
+  - Boat
+  - FishSpawner
   layers:
   - Default
   - TransparentFX

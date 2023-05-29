@@ -36,6 +36,7 @@ public class GateController : MonoBehaviour
         {
             gate1.SetActive(false);
             FishSpawner.GetComponent<FishSpawner2>().enabled = true;
+            gate1isOpen = true;
         }
 
         /////// GATE WARNING TEXTS

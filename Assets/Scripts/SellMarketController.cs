@@ -14,7 +14,7 @@ public class SellMarketController : MonoBehaviour
     public GameObject sellMarket;
     public GameObject boat;
 
-    public TextMeshPro boatCapacity;
+    public TextMeshPro catchedFishCountText;
 
     public bool isSellMarketOpen = false;
     // Start is called before the first frame update
@@ -37,7 +37,7 @@ public class SellMarketController : MonoBehaviour
         {
             isSellMarketOpen = true;
 
-            CollectCashAnimation.CashNumber = int.Parse(boatCapacity.text);
+            CollectCashAnimation.CashNumber = int.Parse(catchedFishCountText.text);
 
             /*for(int i =0; i < cashes.Length; i++)
             {   

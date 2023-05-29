@@ -28,8 +28,8 @@ public class BuyMarketPanelManager : MonoBehaviour
     }
 
     public void closeBuyPanel()
-    {
-        boat.GetComponent<BoatMovementTouch>().enabled = true;
+    {   
         buyPanel.SetActive(false);
+        boat.GetComponent<BoatMovementTouch>().enabled = true;       
     }
 }
