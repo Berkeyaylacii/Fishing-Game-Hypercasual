@@ -8,6 +8,7 @@ public class CatchFish : MonoBehaviour
 {
     public FishSpawner FishSpawner;
     public FishSpawner2 FishSpawner2;
+    public FishSpawner3 FishSpawner3;
 
     public GateController GateController;
 
@@ -42,6 +43,8 @@ public class CatchFish : MonoBehaviour
     public float catchedFish2Count =0 ;
     public float catchedFish3Count = 0;
     public float catchedFish4Count = 0;
+    public float catchedFish5Count = 0;
+    public float catchedFish6Count = 0;
 
     public bool isCatching = false;
     public bool moveCash = false;
@@ -63,6 +66,10 @@ public class CatchFish : MonoBehaviour
         if (GateController.gate1isOpen == true)
         {
             FishSpawner2 = GameObject.FindGameObjectWithTag("FishSpawner").GetComponent<FishSpawner2>();
+        }
+        if(GateController.gate2isOpen == true)
+        {
+            FishSpawner3 = GameObject.FindGameObjectWithTag("FishSpawner").GetComponent<FishSpawner3>();
         }
         /*if(moveCash == true)
         {
@@ -138,6 +145,16 @@ public class CatchFish : MonoBehaviour
                     {
                         FishSpawner2.fishCounter4 -= 1;  //decrease spawnedFish2 count to spawn fish again.
                         catchedFish4Count += 1;
+                    }
+                    if (closest.name == "BluefinTuna(Clone)")
+                    {
+                        FishSpawner3.fishCounter5 -= 1;  //decrease spawnedFish2 count to spawn fish again.
+                        catchedFish5Count += 1;
+                    }
+                    if (closest.name == "SawShark(Clone)")
+                    {
+                        FishSpawner3.fishCounter6 -= 1;  //decrease spawnedFish2 count to spawn fish again.
+                        catchedFish6Count += 1;
                     }
 
                     Object.Destroy(closest);

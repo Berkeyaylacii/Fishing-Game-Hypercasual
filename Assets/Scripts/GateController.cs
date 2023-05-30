@@ -22,6 +22,7 @@ public class GateController : MonoBehaviour
 
     public GameObject boat;
     public bool gate1isOpen = false;
+    public bool gate2isOpen = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -38,6 +39,18 @@ public class GateController : MonoBehaviour
             FishSpawner.GetComponent<FishSpawner2>().enabled = true;
             gate1isOpen = true;
         }
+        if (float.Parse(boatCapacity.text.ToString()) >= 11)
+        {
+            gate2.SetActive(false);
+            FishSpawner.GetComponent<FishSpawner3>().enabled = true;
+            gate2isOpen = true;
+        }
+        /*if (float.Parse(boatCapacity.text.ToString()) >= 13)
+        {
+            gate3.SetActive(false);
+            FishSpawner.GetComponent<FishSpawner2>().enabled = true;
+            gate1isOpen = true;
+        }*/
 
         /////// GATE WARNING TEXTS
         if (gate1 != null)

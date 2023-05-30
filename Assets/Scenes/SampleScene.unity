@@ -512,6 +512,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FishSpawner: {fileID: 1101987993}
   FishSpawner2: {fileID: 0}
+  FishSpawner3: {fileID: 0}
   GateController: {fileID: 276409765}
   line: {fileID: 1402098818}
   bringPosition: {fileID: 1402098817}
@@ -530,6 +531,8 @@ MonoBehaviour:
   catchedFish2Count: 0
   catchedFish3Count: 0
   catchedFish4Count: 0
+  catchedFish5Count: 0
+  catchedFish6Count: 0
   isCatching: 0
   moveCash: 0
 --- !u!114 &96614910
@@ -563,7 +566,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96a6e59868ce81b46ba17e48bca1421b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 4
+  movementSpeed: 10
   rotationSpeed: 450
 --- !u!224 &109134381 stripped
 RectTransform:
@@ -6046,6 +6049,7 @@ MonoBehaviour:
   boatCapacity: {fileID: 1461911338}
   boat: {fileID: 96614899}
   gate1isOpen: 0
+  gate2isOpen: 0
 --- !u!4 &276409766
 Transform:
   m_ObjectHideFlags: 0
@@ -11048,7 +11052,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1101987992}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -42.7, y: 0, z: -31.1}
+  m_LocalPosition: {x: -41.7, y: 0, z: -22.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11089,12 +11093,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   boat: {fileID: 96614899}
-  Fish5: {fileID: 0}
-  Fish6: {fileID: 0}
+  Fish5: {fileID: 1556732243990717265, guid: 17617f92806c69c48a9f622ea5905526, type: 3}
+  Fish6: {fileID: 366868391490645765, guid: 611efcdaaaa0fdb45966d2fcf9ac9ff9, type: 3}
   stopSpawning5: 0
   stopSpawning6: 0
-  spawnTime: 0
-  spawnDelay: 0
+  spawnTime: 1
+  spawnDelay: 1
   fishCounter5: 0
   fishCounter6: 0
 --- !u!1001 &1102677322
